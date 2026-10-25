@@ -28,7 +28,12 @@ def grouped(items):
     """category -> series -> [items], series ordered by size, items by post id."""
     out = OrderedDict((c, OrderedDict()) for c in CATS)
     sizes = Counter((i["category"], i["series"]) for i in items)
-    for i in sorted(items, key=lambda i: (-sizes[(i["category"], i["series"])], i["series"], i["id"])):
+    # each book/section starts where its first lesson was posted, and keeps its lessons together
+    first = {}
+    for i in sorted(items, key=lambda i: i["id"]):
+        first.setdefault((i["series"], i["sub"]), i["id"])
+    for i in sorted(items, key=lambda i: (-sizes[(i["category"], i["series"])], i["series"],
+                                         first[(i["series"], i["sub"])], i["id"])):
         out[i["category"]].setdefault(i["series"], []).append(i)
     return out
 
