@@ -1,0 +1,69 @@
+# Hourly: fetch new posts from the Telegram channel, rebuild the index and
+# the site, commit what changed, and publish the site to GitHub Pages.
+name: تحديث الفهرس والموقع من القناة
+
+on:
+  schedule:
+    - cron: "17 * * * *"     # every hour: new posts only
+    - cron: "40 2 * * 5"     # every Friday: re-read the whole channel (edits, deletions)
+  workflow_dispatch:          # manual run from the Actions tab
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: update-site
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install beautifulsoup4==4.15.0 pillow==12.3.0 openpyxl==3.1.5
+
+      - name: Fetch channel and rebuild
+        run: |
+          if [ "${{ github.event.schedule }}" = "40 2 * * 5" ]; then
+            python -X utf8 tools/update_all.py --full
+          else
+            python -X utf8 tools/update_all.py
+          fi
+
+      - name: Commit changes
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data site index "فهرس قناة رياض الجنة.xlsx"
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "تحديث تلقائي من القناة"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/configure-pages@v5
+        if: steps.commit.outputs.changed == 'true' || github.event_name != 'schedule'
+
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.commit.outputs.changed == 'true' || github.event_name != 'schedule'
+        with:
+          path: docs
+
+      - id: deploy
+        uses: actions/deploy-pages@v4
+        if: steps.commit.outputs.changed == 'true' || github.event_name != 'schedule'

@@ -1,0 +1,645 @@
+<title>رياض الجنة</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="فهرس دروس قناة رياض الجنة العلمية الدعوية (م. محمود علي): بحث واستعراض موضوعي لكل المواد مع روابطها على تليجرام">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600&family=Reem+Kufi:wght@500;600;700&display=swap">
+<style>
+/* Layout: a library catalogue — sticky search header, then one view at a time
+   (home / category / series / search / posters), lessons as ruled index rows. */
+:root {
+  --bg: #F5F7F3;
+  --surface: #FFFFFF;
+  --ink: #17221D;
+  --muted: #5A6A61;
+  --line: #DCE3DC;
+  --chip: #E9F0EA;
+  --green: #1E5B45;
+  --green-deep: #133F30;
+  --on-green: #F4F8F5;
+  --gold: #A87A22;
+  --gold-soft: #F4E8C8;
+  --focus: #C8962E;
+  --shadow: 0 1px 2px rgb(20 40 30 / .06), 0 6px 20px rgb(20 40 30 / .06);
+  --f-display: "Reem Kufi", "IBM Plex Sans Arabic", "Segoe UI", Tahoma, sans-serif;
+  --f-body: "IBM Plex Sans Arabic", "Segoe UI", Tahoma, Arial, sans-serif;
+  --r: 10px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0E1512; --surface: #151F1A; --ink: #E4EBE6; --muted: #97A69E; --line: #26332C;
+    --chip: #1C2922; --green: #3C9873; --green-deep: #0F2A20; --on-green: #F4F8F5;
+    --gold: #D8AD55; --gold-soft: #34290F; --focus: #E2BC6A;
+    --shadow: 0 1px 2px rgb(0 0 0 / .3), 0 6px 20px rgb(0 0 0 / .25);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0E1512; --surface: #151F1A; --ink: #E4EBE6; --muted: #97A69E; --line: #26332C;
+  --chip: #1C2922; --green: #3C9873; --green-deep: #0F2A20; --on-green: #F4F8F5;
+  --gold: #D8AD55; --gold-soft: #34290F; --focus: #E2BC6A;
+  --shadow: 0 1px 2px rgb(0 0 0 / .3), 0 6px 20px rgb(0 0 0 / .25);
+  color-scheme: dark;
+}
+
+body { background: var(--bg); color: var(--ink); font-family: var(--f-body); font-size: 16px; line-height: 1.7; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--green-deep); }
+#app { min-height: 100%; }
+a { color: inherit; }
+button, input, select { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; border-radius: 6px; }
+.wrap { max-width: 1120px; margin-inline: auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+
+/* header */
+.top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--green-deep); color: var(--on-green); }
+.top .wrap { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 20px; padding-block: 10px; }
+.brand { display: flex; align-items: center; gap: 10px; text-decoration: none; }
+.brand svg { flex: none; }
+.brand b { font-family: var(--f-display); font-size: 1.45rem; font-weight: 600; line-height: 1.1; display: block; }
+.brand small { display: block; font-size: .78rem; opacity: .75; line-height: 1.3; }
+.nav { display: flex; gap: 4px; margin-inline-start: auto; flex-wrap: wrap; }
+.nav a { text-decoration: none; padding: 6px 12px; border-radius: 999px; font-size: .92rem; opacity: .85; }
+.nav a:hover { opacity: 1; background: rgb(255 255 255 / .08); }
+.nav a[aria-current="page"] { background: rgb(255 255 255 / .14); opacity: 1; }
+.nav .tg { background: var(--gold); color: #1B1406; opacity: 1; font-weight: 600; }
+.search { flex: 1 1 100%; display: flex; gap: 8px; }
+.search label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+.search input { flex: 1; min-width: 0; padding: 10px 14px; border-radius: var(--r); border: 1px solid transparent; background: rgb(255 255 255 / .95); color: #17221D; font-size: 1rem; }
+.search input::placeholder { color: #6B786F; }
+.search button { padding: 0 18px; border: 0; border-radius: var(--r); background: var(--gold); color: #1B1406; font-weight: 600; cursor: pointer; }
+
+main { padding-block: 24px 64px; }
+h1, h2, h3 { font-family: var(--f-display); font-weight: 600; line-height: 1.35; text-wrap: balance; margin: 0; }
+h1 { font-size: clamp(1.6rem, 4vw, 2.2rem); }
+h2 { font-size: 1.35rem; }
+h3 { font-size: 1.08rem; }
+.muted { color: var(--muted); }
+.eyebrow { font-size: .8rem; color: var(--gold); font-weight: 600; letter-spacing: .02em; }
+.stack { display: grid; gap: 28px; }
+.row-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.more-link { font-size: .9rem; color: var(--green); font-weight: 600; text-decoration: none; }
+.crumbs { font-size: .88rem; color: var(--muted); display: flex; gap: 6px; flex-wrap: wrap; }
+.crumbs a { color: var(--green); text-decoration: none; }
+
+/* home intro */
+.intro { display: grid; gap: 6px; }
+.intro p { margin: 0; max-width: 62ch; }
+.facts { display: flex; flex-wrap: wrap; gap: 8px 22px; font-size: .92rem; color: var(--muted); }
+.facts b { color: var(--ink); font-variant-numeric: tabular-nums; font-family: var(--f-display); font-size: 1.15rem; }
+
+/* category grid */
+.cats { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 12px; }
+.cat { display: grid; gap: 6px; align-content: start; padding: 16px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); text-decoration: none; transition: border-color .15s, transform .15s; }
+.cat:hover { border-color: var(--green); transform: translateY(-1px); }
+.cat .n { font-family: var(--f-display); color: var(--green); font-size: 1.5rem; line-height: 1; font-variant-numeric: tabular-nums; }
+.cat .ser { font-size: .84rem; color: var(--muted); line-height: 1.6; }
+
+/* poster strip & grid */
+.strip { display: grid; grid-auto-flow: column; grid-auto-columns: 150px; gap: 12px; overflow-x: auto; padding-bottom: 8px; scroll-snap-type: x mandatory; }
+.poster { display: block; padding: 0; border: 0; background: none; cursor: pointer; text-align: start; scroll-snap-align: start; min-width: 0; }
+.poster img { width: 100%; aspect-ratio: 3 / 4; object-fit: cover; border-radius: 8px; background: var(--chip); display: block; box-shadow: var(--shadow); }
+.poster span { display: block; font-size: .82rem; line-height: 1.5; margin-top: 6px; color: var(--muted); overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+.pgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 18px 14px; }
+.tabs { display: flex; gap: 6px; flex-wrap: wrap; }
+.tabs button { border: 1px solid var(--line); background: var(--surface); padding: 6px 14px; border-radius: 999px; cursor: pointer; font-size: .92rem; }
+.tabs button[aria-pressed="true"] { background: var(--green); border-color: var(--green); color: var(--on-green); }
+
+/* series list */
+.slist { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 12px; }
+.sitem { display: flex; gap: 12px; padding: 12px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); text-decoration: none; align-items: center; min-width: 0; }
+.sitem:hover { border-color: var(--green); }
+.sitem .cv { width: 54px; height: 72px; flex: none; border-radius: 6px; object-fit: cover; background: var(--chip); }
+.sitem .ph { width: 54px; height: 72px; flex: none; border-radius: 6px; background: var(--chip); display: grid; place-items: center; color: var(--green); font-family: var(--f-display); font-size: 1.4rem; }
+.sitem .t { min-width: 0; }
+.sitem b { font-weight: 600; display: block; line-height: 1.5; }
+.sitem small { color: var(--muted); font-size: .85rem; }
+
+/* series header */
+.shead { display: flex; gap: 20px; align-items: flex-start; flex-wrap: wrap; }
+.shead img { width: 150px; max-width: 40%; border-radius: 8px; box-shadow: var(--shadow); cursor: zoom-in; }
+.shead .t { flex: 1 1 280px; min-width: 0; display: grid; gap: 10px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { border: 0; background: var(--chip); padding: 4px 12px; border-radius: 999px; font-size: .86rem; cursor: pointer; text-decoration: none; }
+.chip:hover { background: var(--gold-soft); }
+.chip i { font-style: normal; color: var(--muted); font-variant-numeric: tabular-nums; }
+
+/* lesson rows */
+.book { display: grid; gap: 0; scroll-margin-top: 150px; }
+.book > h3 { padding: 18px 0 8px; border-bottom: 2px solid var(--green); color: var(--green); display: flex; gap: 8px; align-items: baseline; justify-content: space-between; }
+.book > h3 small { font-family: var(--f-body); font-size: .82rem; color: var(--muted); font-weight: 400; }
+.lessons { list-style: none; margin: 0; padding: 0; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); }
+.lesson { display: grid; grid-template-columns: 46px minmax(0, 1fr) auto; gap: 4px 14px; padding: 12px 14px; border-top: 1px solid var(--line); align-items: start; }
+.lesson:first-child { border-top: 0; }
+.lesson .ep { font-family: var(--f-display); color: var(--gold); font-size: 1.05rem; text-align: center; font-variant-numeric: tabular-nums; padding-top: 2px; }
+.lesson .ep.none { color: var(--line); }
+.lesson .body { min-width: 0; display: grid; gap: 2px; }
+.lesson .ti { font-weight: 600; line-height: 1.6; overflow-wrap: anywhere; }
+.lesson .tp { font-size: .86rem; color: var(--muted); overflow-wrap: anywhere; }
+.lesson .meta { font-size: .8rem; color: var(--muted); display: flex; flex-wrap: wrap; gap: 4px 10px; }
+.lesson .meta a { color: var(--green); text-decoration: none; }
+.lesson .act { display: flex; gap: 6px; align-items: center; }
+.lesson .thumb { width: 38px; height: 50px; object-fit: cover; border-radius: 4px; cursor: zoom-in; border: 0; padding: 0; background: var(--chip); }
+.lesson .thumb img { width: 100%; height: 100%; object-fit: cover; border-radius: 4px; display: block; }
+.go { display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; padding: 6px 12px; border-radius: 8px; background: var(--green); color: var(--on-green); text-decoration: none; font-size: .86rem; font-weight: 600; }
+.go:hover { background: var(--green-deep); }
+.kind { display: inline-block; font-size: .72rem; padding: 0 8px; border-radius: 999px; background: var(--gold-soft); color: var(--ink); }
+mark { background: var(--gold-soft); color: inherit; border-radius: 3px; padding: 0 2px; }
+
+/* search filters */
+.filters { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.filters select { padding: 6px 10px; border-radius: 8px; border: 1px solid var(--line); background: var(--surface); }
+.btn-more { justify-self: center; padding: 10px 26px; border-radius: 999px; border: 1px solid var(--green); color: var(--green); background: transparent; cursor: pointer; font-weight: 600; }
+.empty { padding: 28px; text-align: center; color: var(--muted); background: var(--surface); border: 1px dashed var(--line); border-radius: var(--r); }
+
+/* lightbox */
+dialog { border: 0; padding: 0; border-radius: 14px; background: var(--surface); color: var(--ink); width: min(860px, calc(100vw - 32px)); max-height: calc(100vh - 48px); box-shadow: 0 20px 60px rgb(0 0 0 / .35); }
+dialog::backdrop { background: rgb(8 16 12 / .7); }
+.lb { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+.lb img { width: 100%; height: 100%; max-height: calc(100vh - 48px); object-fit: contain; background: #0B110E; display: block; }
+.lb .side { padding: 20px; display: grid; gap: 12px; align-content: start; overflow-y: auto; max-height: calc(100vh - 48px); }
+.lb .close { justify-self: end; border: 0; background: var(--chip); border-radius: 999px; width: 34px; height: 34px; cursor: pointer; font-size: 1.1rem; }
+.lb ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.lb li a { display: block; padding: 8px 10px; border: 1px solid var(--line); border-radius: 8px; text-decoration: none; font-size: .9rem; }
+.lb li a:hover { border-color: var(--green); }
+
+/* author */
+.who { display: flex; gap: 14px; align-items: center; padding: 14px 16px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); text-decoration: none; max-width: 640px; }
+.who:hover { border-color: var(--green); }
+.who img, .ahead .ph-photo { border-radius: 50%; object-fit: cover; flex: none; background: var(--chip); }
+.who img { width: 56px; height: 56px; }
+.who b { display: block; font-family: var(--f-display); font-size: 1.1rem; font-weight: 600; }
+.who small { color: var(--muted); font-size: .86rem; }
+.ahead { display: flex; gap: 24px; align-items: center; flex-wrap: wrap; }
+.ahead .ph-photo { width: 132px; height: 132px; border: 3px solid var(--gold); }
+.ahead .t { flex: 1 1 280px; min-width: 0; display: grid; gap: 8px; }
+.prose { display: grid; gap: 12px; max-width: 70ch; }
+.prose p { margin: 0; }
+.cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 28px; align-items: start; }
+.timeline { list-style: none; margin: 0; padding: 0; display: grid; gap: 0; border-inline-start: 2px solid var(--line); }
+.timeline li { position: relative; padding: 0 22px 20px 0; display: grid; gap: 4px; }
+.timeline li::before { content: ""; position: absolute; inset-inline-start: -7px; top: 7px; width: 12px; height: 12px; border-radius: 50%; background: var(--gold); border: 2px solid var(--bg); }
+.timeline .when { font-size: .8rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.timeline .what { font-weight: 600; line-height: 1.6; }
+.timeline .det { font-size: .9rem; color: var(--muted); }
+.links { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: .86rem; }
+.links a, .links button { color: var(--green); font-weight: 600; text-decoration: none; background: none; border: 0; padding: 0; cursor: pointer; }
+.role { display: inline-block; font-size: .74rem; padding: 0 8px; border-radius: 999px; background: var(--chip); color: var(--ink); margin-inline-end: 6px; }
+.work { display: grid; grid-template-columns: 120px minmax(0, 1fr); gap: 16px; padding: 16px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); }
+.work .cover { padding: 0; border: 0; background: none; cursor: zoom-in; }
+.work .cover img { width: 100%; border-radius: 6px; box-shadow: var(--shadow); display: block; }
+.work .t { display: grid; gap: 6px; align-content: start; min-width: 0; }
+.work ul { margin: 0; padding-inline-start: 18px; font-size: .9rem; }
+.acts { display: grid; gap: 12px; }
+.act-item { display: grid; grid-template-columns: 64px minmax(0, 1fr); gap: 14px; padding: 12px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); }
+.act-item .thumb2 { padding: 0; border: 0; background: var(--chip); border-radius: 6px; cursor: zoom-in; align-self: start; }
+.act-item .thumb2 img { width: 64px; aspect-ratio: 3 / 4; object-fit: cover; border-radius: 6px; display: block; }
+.act-item .t { display: grid; gap: 4px; min-width: 0; }
+@media (max-width: 640px) { .work { grid-template-columns: 1fr; } .work .cover img { max-width: 180px; } }
+
+footer { border-top: 1px solid var(--line); padding-block: 22px; font-size: .86rem; color: var(--muted); }
+footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; }
+footer a { color: var(--green); }
+
+.loading { padding: 60px 0; text-align: center; color: var(--muted); }
+
+@media (max-width: 640px) {
+  .lesson { grid-template-columns: 34px minmax(0, 1fr); }
+  .lesson .act { grid-column: 2; }
+  .lb { grid-template-columns: 1fr; }
+  .lb img { max-height: 55vh; }
+  .brand small { display: none; }
+  .nav { margin-inline-start: 0; }
+}
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
+</style>
+
+<div id="app" dir="rtl" lang="ar">
+  <header class="top">
+    <div class="wrap">
+      <a class="brand" href="#home" aria-label="رياض الجنة - الصفحة الرئيسية">
+        <svg width="38" height="38" viewBox="0 0 40 40" aria-hidden="true">
+          <path d="M20 3 C27 9 33 15 33 23 a13 13 0 0 1-26 0 C7 15 13 9 20 3Z" fill="var(--gold)"/>
+          <path d="M20 13 v20 M20 22 l-6-5 M20 27 l6-5" stroke="var(--green-deep)" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+        </svg>
+        <span><b>رياض الجنة</b><small>فهرس دروس م. محمود علي</small></span>
+      </a>
+      <nav class="nav" aria-label="الأقسام">
+        <a href="#home" data-nav="home">الرئيسية</a>
+        <a href="#cats" data-nav="cats">التصنيفات</a>
+        <a href="#ads" data-nav="ads">الإعلانات</a>
+        <a href="#about" data-nav="about">عن الشيخ</a>
+        <a class="tg" href="https://t.me/reyad_elganna" target="_blank" rel="noopener">القناة على تليجرام ↗</a>
+      </nav>
+      <form class="search" id="searchForm" role="search">
+        <label for="q">ابحث في الدروس</label>
+        <input id="q" type="search" placeholder="ابحث بعنوان الدرس أو الموضوع أو الكتاب… مثل: الربا، غزوة تبوك، الحيض" autocomplete="off">
+        <button type="submit">بحث</button>
+      </form>
+    </div>
+  </header>
+
+  <main class="wrap" id="view" tabindex="-1"><p class="loading">جارٍ تحميل الفهرس…</p></main>
+
+  <footer>
+    <div class="wrap">
+      <span>جميع المواد منشورة على <a href="https://t.me/reyad_elganna" target="_blank" rel="noopener">قناة رياض الجنة</a>، وكل درس هنا يفتح منشوره الأصلي.</span>
+      <span id="built"></span>
+    </div>
+  </footer>
+
+  <dialog id="lightbox" aria-label="عرض الإعلان"></dialog>
+</div>
+
+<script>
+(() => {
+  const CH = "https://t.me/reyad_elganna/";
+  const TYPE = { video: "فيديو", pdf: "PDF" };
+  const PAGE = 40;
+  const $ = (s, el = document) => el.querySelector(s);
+  const view = $("#view");
+  const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const num = n => Number(n).toLocaleString("ar-EG");
+  const fmtDate = d => { try { return new Date(d + "T12:00:00").toLocaleDateString("ar-EG", { year: "numeric", month: "long" }); } catch { return d; } };
+
+  // Arabic normalisation for search: drop diacritics/tatweel, unify letter forms and digits.
+  const norm = s => String(s || "")
+    .replace(/[ً-ٰٟـ]/g, "")
+    .replace(/[أإآٱ]/g, "ا").replace(/ى/g, "ي").replace(/ة/g, "ه").replace(/ؤ/g, "و").replace(/ئ/g, "ي")
+    .replace(/[٠-٩]/g, d => "٠١٢٣٤٥٦٧٨٩".indexOf(d))
+    .replace(/[_#*،,.:؛\-–()«»"]/g, " ")
+    .toLowerCase();
+
+  let D, S, I, P, byId, posterById, searchIndex;
+  const state = { q: "", cat: "", type: "", sort: "rel", shown: PAGE, posterTab: "lecture" };
+
+  fetch("data.json").then(r => r.json()).then(data => {
+    D = data; S = data.series; I = data.items; P = data.posters;
+    byId = new Map(I.map(x => [x.i, x]));
+    posterById = new Map(P.map(p => [p.i, p]));
+    searchIndex = I.map(x => {
+      const s = S[x.s];
+      return { x, title: norm(x.t), rest: norm([(x.p || []).join(" "), s.n, x.b, D.cats[s.c]].join(" ")) };
+    });
+    $("#built").textContent = "آخر تحديث للفهرس: " + fmtDate(data.built);
+    route();
+  }).catch(() => { view.innerHTML = '<p class="empty">تعذّر تحميل الفهرس. أعد تحميل الصفحة.</p>'; });
+
+  window.addEventListener("hashchange", route);
+
+  function go(token) {
+    if (location.hash.slice(1) === token) route(); else location.hash = token;
+  }
+
+  function route() {
+    if (!D) return;
+    const h = location.hash.slice(1) || "home";
+    let m;
+    document.querySelectorAll("[data-nav]").forEach(a => a.removeAttribute("aria-current"));
+    const mark = n => $(`[data-nav="${n}"]`)?.setAttribute("aria-current", "page");
+    if ((m = h.match(/^c(\d+)$/)) && D.cats[+m[1]]) { mark("cats"); renderCat(+m[1]); }
+    else if ((m = h.match(/^s(\d+)$/)) && S[+m[1]]) { mark("cats"); renderSeries(+m[1]); }
+    else if (h === "cats") { mark("cats"); renderCats(); }
+    else if (h === "ads") { mark("ads"); renderPosters(); }
+    else if (h === "about" && D.author) { mark("about"); renderAbout(); }
+    else if (h === "search") { renderSearch(); }
+    else { mark("home"); renderHome(); }
+    window.scrollTo({ top: 0 });
+  }
+
+  // ───────── shared pieces ─────────
+  const catCount = c => S.filter(s => s.c === c).reduce((a, s) => a + s.k, 0);
+  const posterImg = id => `p/${id}.webp`;
+
+  function lessonRow(x, opts = {}) {
+    const s = S[x.s];
+    const title = opts.hl ? highlight(x.t, opts.hl) : esc(x.t);
+    const topics = (x.p || []).join(" • ");
+    const meta = [];
+    if (opts.showSeries) meta.push(`<a href="#s${x.s}">${esc(s.n)}</a>${x.b ? " › " + esc(x.b) : ""}`);
+    meta.push(`<span>${fmtDate(x.d)}</span>`);
+    if (x.y) meta.push(`<span class="kind">${TYPE[x.y]}</span>`);
+    return `<li class="lesson">
+      <span class="ep${x.e ? "" : " none"}" aria-label="${x.e ? "الدرس " + x.e : ""}">${x.e ? num(x.e) : "•"}</span>
+      <div class="body">
+        <span class="ti">${title}</span>
+        ${topics ? `<span class="tp">${opts.hl ? highlight(topics, opts.hl) : esc(topics)}</span>` : ""}
+        <span class="meta">${meta.join("")}</span>
+      </div>
+      <div class="act">
+        ${x.g ? `<button class="thumb" data-poster="${x.g}" aria-label="عرض إعلان الدرس"><img src="${posterImg(x.g)}" alt="" loading="lazy"></button>` : ""}
+        <a class="go" href="${CH}${x.i}" target="_blank" rel="noopener">${x.y === "pdf" ? "تحميل" : x.y === "video" ? "مشاهدة" : "استماع"} ↗</a>
+      </div>
+    </li>`;
+  }
+
+  function seriesCard(i) {
+    const s = S[i];
+    const cover = s.cv ? `<img class="cv" src="${posterImg(s.cv)}" alt="" loading="lazy">` : `<span class="ph" aria-hidden="true">${esc(s.n.replace(/^شرح\s+/, "").trim()[0])}</span>`;
+    const books = s.b.length ? ` · ${num(s.b.length)} ${s.b.length > 10 ? "كتابًا" : "كتب"}` : "";
+    return `<a class="sitem" href="#s${i}">${cover}<span class="t"><b>${esc(s.n)}</b><small>${num(s.k)} مادة${books}</small></span></a>`;
+  }
+
+  function posterTile(p) {
+    return `<button class="poster" data-poster="${p.i}"><img src="${posterImg(p.i)}" alt="${esc(p.t)}" loading="lazy"><span>${esc(p.t) || "&nbsp;"}</span></button>`;
+  }
+
+  // ───────── views ─────────
+  function renderHome() {
+    const latestPosters = P.filter(p => p.k === "lecture" || p.k === "series").slice(0, 14);
+    const latest = I.slice(-8).reverse();
+    const first = I[0].d;
+    view.innerHTML = `<div class="stack">
+      <section class="intro">
+        <span class="eyebrow">قناة علمية · دعوية · فكرية</span>
+        <h1>فهرس دروس قناة رياض الجنة</h1>
+        <p class="muted">كل ما نُشر على القناة من شروح ومحاضرات وخطب وفتاوى، مرتبًا حسب الموضوع والسلسلة. اختر تصنيفًا أو ابحث، وكل درس يفتح منشوره على تليجرام مباشرة.</p>
+        <div class="facts">
+          <span><b>${num(I.length)}</b> مادة</span>
+          <span><b>${num(S.length)}</b> سلسلة</span>
+          <span><b>${num(D.cats.filter((c, i) => catCount(i)).length)}</b> تصنيفًا</span>
+          <span>منذ ${fmtDate(first)}</span>
+        </div>
+      </section>
+      ${D.author ? `<a class="who" href="#about"><img src="${esc(D.author.photo)}" alt="">
+        <span><b>${esc(D.author.name)}</b><small>${esc(D.author.roles.slice(0, 2).join(" · "))} · التعريف والمؤلفات والمشاركات ←</small></span></a>` : ""}
+
+      <section class="stack" style="gap:12px" aria-labelledby="h-cats">
+        <div class="row-head"><h2 id="h-cats">التصنيفات</h2></div>
+        <div class="cats">${D.cats.map((c, i) => catTile(c, i)).join("")}</div>
+      </section>
+
+      <section class="stack" style="gap:12px" aria-labelledby="h-ads">
+        <div class="row-head"><h2 id="h-ads">أحدث الإعلانات</h2><a class="more-link" href="#ads">كل الإعلانات ←</a></div>
+        <div class="strip">${latestPosters.map(posterTile).join("")}</div>
+      </section>
+
+      <section class="stack" style="gap:12px" aria-labelledby="h-new">
+        <div class="row-head"><h2 id="h-new">أحدث الدروس</h2></div>
+        <ul class="lessons">${latest.map(x => lessonRow(x, { showSeries: true })).join("")}</ul>
+      </section>
+    </div>`;
+  }
+
+  function catTile(c, i) {
+    const n = catCount(i);
+    if (!n) return "";
+    const top = S.map((s, k) => [s, k]).filter(([s]) => s.c === i).slice(0, 3).map(([s]) => s.n).join("، ");
+    return `<a class="cat" href="#c${i}"><span class="n">${num(n)}</span><h3>${esc(c)}</h3><span class="ser">${esc(top)}</span></a>`;
+  }
+
+  function renderCats() {
+    view.innerHTML = `<div class="stack">
+      <div class="intro"><span class="eyebrow">الاستعراض الموضوعي</span><h1>التصنيفات والسلاسل</h1></div>
+      ${D.cats.map((c, i) => {
+        const list = S.map((s, k) => k).filter(k => S[k].c === i);
+        if (!list.length) return "";
+        return `<section class="stack" style="gap:12px"><div class="row-head"><h2>${esc(c)}</h2><a class="more-link" href="#c${i}">${num(catCount(i))} مادة ←</a></div>
+          <div class="slist">${list.map(seriesCard).join("")}</div></section>`;
+      }).join("")}
+    </div>`;
+  }
+
+  function renderCat(i) {
+    const list = S.map((s, k) => k).filter(k => S[k].c === i);
+    const items = I.filter(x => S[x.s].c === i).slice(-6).reverse();
+    view.innerHTML = `<div class="stack">
+      <nav class="crumbs" aria-label="المسار"><a href="#cats">التصنيفات</a><span>›</span><span>${esc(D.cats[i])}</span></nav>
+      <div class="intro"><h1>${esc(D.cats[i])}</h1><div class="facts"><span><b>${num(catCount(i))}</b> مادة</span><span><b>${num(list.length)}</b> سلسلة</span></div></div>
+      <div class="slist">${list.map(seriesCard).join("")}</div>
+      <section class="stack" style="gap:12px"><h2>أحدث ما نُشر في هذا التصنيف</h2>
+        <ul class="lessons">${items.map(x => lessonRow(x, { showSeries: true })).join("")}</ul></section>
+    </div>`;
+  }
+
+  function renderSeries(i) {
+    const s = S[i];
+    const items = I.filter(x => x.s === i);
+    const groups = new Map();
+    for (const x of items) {
+      const k = x.b || "";
+      if (!groups.has(k)) groups.set(k, []);
+      groups.get(k).push(x);
+    }
+    const keys = [...groups.keys()];
+    const multi = keys.length > 1;
+    const chips = multi ? `<div class="chips">${keys.map((k, n) => `<a class="chip" href="#s${i}" data-jump="b${n}">${esc(k || "دروس عامة")} <i>${num(groups.get(k).length)}</i></a>`).join("")}</div>` : "";
+    view.innerHTML = `<div class="stack">
+      <nav class="crumbs" aria-label="المسار"><a href="#cats">التصنيفات</a><span>›</span><a href="#c${s.c}">${esc(D.cats[s.c])}</a><span>›</span><span>${esc(s.n)}</span></nav>
+      <div class="shead">
+        ${s.cv ? `<img src="${posterImg(s.cv)}" alt="إعلان ${esc(s.n)}" data-poster="${s.cv}">` : ""}
+        <div class="t">
+          <span class="eyebrow">${esc(D.cats[s.c])}</span>
+          <h1>${esc(s.n)}</h1>
+          <div class="facts"><span><b>${num(s.k)}</b> مادة</span>${multi ? `<span><b>${num(keys.length)}</b> ${keys.length > 10 ? "كتابًا" : "كتب"} / أبواب</span>` : ""}
+            <span>${fmtDate(items[0].d)} – ${fmtDate(items[items.length - 1].d)}</span></div>
+          ${chips}
+        </div>
+      </div>
+      ${keys.map((k, n) => `<section class="book" id="b${n}">
+        ${multi ? `<h3><span>${esc(k || "دروس عامة")}</span><small>${num(groups.get(k).length)} درس</small></h3>` : ""}
+        <ul class="lessons">${groups.get(k).map(x => lessonRow(x)).join("")}</ul>
+      </section>`).join("")}
+    </div>`;
+  }
+
+  function renderPosters() {
+    const tabs = [["lecture", "إعلانات الدروس والسلاسل"], ["card", "بطاقات دعوية"], ["event", "فعاليات وأخبار"]];
+    const list = P.filter(p => state.posterTab === "lecture" ? (p.k === "lecture" || p.k === "series") : p.k === state.posterTab);
+    view.innerHTML = `<div class="stack">
+      <div class="intro"><span class="eyebrow">من القناة</span><h1>الإعلانات</h1>
+        <p class="muted">إعلانات الدروس كما نُشرت على القناة. اضغط على أي إعلان لعرضه كاملًا والوصول إلى دروسه.</p></div>
+      <div class="tabs" role="group" aria-label="نوع الإعلان">${tabs.map(([k, t]) => `<button data-tab="${k}" aria-pressed="${state.posterTab === k}">${t} <span class="muted">(${num(P.filter(p => k === "lecture" ? (p.k === "lecture" || p.k === "series") : p.k === k).length)})</span></button>`).join("")}</div>
+      <div class="pgrid">${list.map(posterTile).join("")}</div>
+    </div>`;
+  }
+
+  function renderAbout() {
+    const A = D.author;
+    const src = id => `<a href="${CH}${id}" target="_blank" rel="noopener">المنشور على القناة ↗</a>`;
+    const day = d => { try { return new Date(d + "T12:00:00").toLocaleDateString("ar-EG", { day: "numeric", month: "long", year: "numeric" }); } catch { return d; } };
+    const topSeries = S.map((s, k) => k).sort((a, b) => S[b].k - S[a].k).slice(0, 8);
+    view.innerHTML = `<div class="stack" style="gap:36px">
+      <section class="ahead">
+        <img class="ph-photo" src="${esc(A.photo)}" alt="${esc(A.name)}">
+        <div class="t">
+          <span class="eyebrow">التعريف بصاحب المحتوى</span>
+          <h1>${esc(A.name)}</h1>
+          <div class="chips">${A.roles.map(r => `<span class="chip">${esc(r)}</span>`).join("")}</div>
+          <div class="facts"><span><b>${num(I.length)}</b> مادة منشورة</span><span><b>${num(S.length)}</b> سلسلة</span><span><b>${num(A.activities.length)}</b> محاضرات وندوات موثقة</span></div>
+        </div>
+      </section>
+
+      <section class="prose">${A.bio.map(p => `<p>${esc(p)}</p>`).join("")}</section>
+
+      <section class="stack" style="gap:14px" aria-labelledby="h-works">
+        <h2 id="h-works">المؤلفات والأبحاث</h2>
+        ${A.works.map(w => `<article class="work">
+          ${w.cover ? `<button class="cover" data-poster="${w.cover}" aria-label="عرض الغلاف"><img src="${posterImg(w.cover)}" alt="غلاف ${esc(w.title)}" loading="lazy"></button>` : "<span></span>"}
+          <div class="t">
+            <span class="eyebrow">${esc(w.kind)}${w.publisher ? " · " + esc(w.publisher) : ""}</span>
+            <h3>${esc(w.title)}</h3>
+            ${w.subtitle ? `<span class="muted">${esc(w.subtitle)}</span>` : ""}
+            <p style="margin:0">${esc(w.about)}</p>
+            ${(w.notes || []).length ? `<ul>${w.notes.map(n => `<li>${esc(n.text)} <a class="more-link" href="${CH}${n.src}" target="_blank" rel="noopener">↗</a></li>`).join("")}</ul>` : ""}
+            <div class="links">${src(w.src)}</div>
+          </div>
+        </article>`).join("")}
+      </section>
+
+      <div class="cols">
+        <section class="stack" style="gap:14px" aria-labelledby="h-cred">
+          <h2 id="h-cred">المؤهلات العلمية</h2>
+          <ol class="timeline">${A.credentials.map(c => `<li>
+            <span class="when">${day(c.date)}</span>
+            <span class="what">${esc(c.title)}</span>
+            <span class="det">${esc(c.detail)}</span>
+            <span class="links">${c.poster ? `<button data-poster="${c.poster}">عرض الصورة</button>` : ""}${src(c.src)}</span>
+          </li>`).join("")}</ol>
+        </section>
+
+        <section class="stack" style="gap:14px" aria-labelledby="h-venues">
+          <h2 id="h-venues">مجالس العلم</h2>
+          <ol class="timeline">${A.venues.map(v => `<li>
+            <span class="what">${esc(v.title)}</span>
+            <span class="det">${esc(v.detail)}</span>
+            <span class="links">${src(v.src)}</span>
+          </li>`).join("")}</ol>
+        </section>
+      </div>
+
+      <section class="stack" style="gap:14px" aria-labelledby="h-acts">
+        <h2 id="h-acts">المحاضرات والندوات العلمية</h2>
+        <div class="acts">${A.activities.slice().reverse().map(a => `<article class="act-item">
+          ${a.poster ? `<button class="thumb2" data-poster="${a.poster}" aria-label="عرض الإعلان"><img src="${posterImg(a.poster)}" alt="" loading="lazy"></button>` : `<span></span>`}
+          <div class="t">
+            <span class="when muted" style="font-size:.8rem">${day(a.date)} · ${esc(a.org)}</span>
+            <span class="what" style="font-weight:600"><span class="role">${esc(a.role)}</span>${esc(a.title)}</span>
+            <span class="links">
+              ${a.video ? `<a href="${esc(a.video)}" target="_blank" rel="noopener">مشاهدة التسجيل ↗</a>` : ""}
+              ${a.cert ? `<button data-poster="${a.cert}">شهادة الشكر</button>` : ""}
+              ${src(a.src)}
+            </span>
+          </div>
+        </article>`).join("")}</div>
+      </section>
+
+      <section class="stack" style="gap:14px" aria-labelledby="h-ser">
+        <div class="row-head"><h2 id="h-ser">أبرز سلاسله على القناة</h2><a class="more-link" href="#cats">كل التصنيفات ←</a></div>
+        <div class="slist">${topSeries.map(seriesCard).join("")}</div>
+      </section>
+    </div>`;
+  }
+
+  // ───────── search ─────────
+  function highlight(text, terms) {
+    let out = esc(text);
+    for (const t of terms) {
+      if (t.length < 2) continue;
+      // Build a pattern that tolerates the same letter variants norm() folds together.
+      const pat = [...t].map(ch => ({ "ا": "[اأإآٱ]", "ي": "[يىئ]", "ه": "[هة]", "و": "[وؤ]" }[ch] || ch.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"))).join("[\\u064B-\\u065F\\u0670\\u0640]*");
+      try { out = out.replace(new RegExp(pat, "g"), m => `<mark>${m}</mark>`); } catch {}
+    }
+    return out;
+  }
+
+  function runSearch() {
+    const terms = norm(state.q).split(/\s+/).filter(Boolean);
+    let res = [];
+    if (terms.length) {
+      for (const e of searchIndex) {
+        let score = 0, ok = true;
+        for (const t of terms) {
+          const t2 = t.startsWith("ال") && t.length > 4 ? t.slice(2) : t;
+          if (e.title.includes(t) || e.title.includes(t2)) score += 3;
+          else if (e.rest.includes(t) || e.rest.includes(t2)) score += 1;
+          else { ok = false; break; }
+        }
+        if (ok) res.push([score, e.x]);
+      }
+    } else res = I.map(x => [0, x]);
+    if (state.cat !== "") res = res.filter(([, x]) => S[x.s].c === +state.cat);
+    if (state.type) res = res.filter(([, x]) => (x.y || "audio") === state.type);
+    if (state.sort === "new") res.sort((a, b) => b[1].i - a[1].i);
+    else if (state.sort === "old") res.sort((a, b) => a[1].i - b[1].i);
+    else res.sort((a, b) => b[0] - a[0] || b[1].i - a[1].i);
+    return { terms, res: res.map(r => r[1]) };
+  }
+
+  function renderSearch() {
+    $("#q").value = state.q;
+    const { terms, res } = runSearch();
+    const cats = D.cats.map((c, i) => `<option value="${i}" ${String(i) === state.cat ? "selected" : ""}>${esc(c)}</option>`).join("");
+    view.innerHTML = `<div class="stack" style="gap:18px">
+      <div class="intro"><span class="eyebrow">البحث</span>
+        <h1>${state.q ? `نتائج «${esc(state.q)}»` : "كل الدروس"}</h1>
+        <p class="muted" aria-live="polite">${num(res.length)} نتيجة</p></div>
+      <div class="filters">
+        <label for="fCat" class="muted">التصنيف</label>
+        <select id="fCat"><option value="">الكل</option>${cats}</select>
+        <label for="fType" class="muted">النوع</label>
+        <select id="fType"><option value="">الكل</option><option value="audio" ${state.type === "audio" ? "selected" : ""}>صوتي</option><option value="video" ${state.type === "video" ? "selected" : ""}>فيديو</option><option value="pdf" ${state.type === "pdf" ? "selected" : ""}>PDF</option></select>
+        <label for="fSort" class="muted">الترتيب</label>
+        <select id="fSort"><option value="rel" ${state.sort === "rel" ? "selected" : ""}>الأقرب للبحث</option><option value="new" ${state.sort === "new" ? "selected" : ""}>الأحدث</option><option value="old" ${state.sort === "old" ? "selected" : ""}>الأقدم</option></select>
+      </div>
+      ${res.length ? `<ul class="lessons">${res.slice(0, state.shown).map(x => lessonRow(x, { showSeries: true, hl: terms })).join("")}</ul>
+        ${res.length > state.shown ? `<button class="btn-more" id="more">عرض المزيد (${num(res.length - state.shown)} متبقية)</button>` : ""}`
+      : `<div class="empty">لا توجد نتائج. جرّب كلمة أقصر أو امسح عوامل التصفية.</div>`}
+    </div>`;
+  }
+
+  // ───────── lightbox ─────────
+  const lb = $("#lightbox");
+  function openPoster(id) {
+    const p = posterById.get(+id);
+    if (!p) return;
+    const lessons = (p.tg || []).map(t => byId.get(t)).filter(Boolean);
+    const seriesLink = p.s != null ? `<a class="more-link" href="#s${p.s}" data-close>كل دروس «${esc(S[p.s].n)}» ←</a>` : "";
+    lb.innerHTML = `<div class="lb">
+      <img src="${posterImg(p.i)}" alt="${esc(p.t)}">
+      <div class="side">
+        <button class="close" data-close aria-label="إغلاق">✕</button>
+        <span class="eyebrow">${fmtDate(p.d)}</span>
+        <h2>${esc(p.t || "إعلان من القناة")}</h2>
+        ${lessons.length ? `<ul>${lessons.map(x => `<li><a href="${CH}${x.i}" target="_blank" rel="noopener">${x.e ? num(x.e) + ". " : ""}${esc(x.t)} ↗</a></li>`).join("")}</ul>` : ""}
+        ${seriesLink}
+        <a class="go" href="${CH}${p.i}" target="_blank" rel="noopener">فتح الإعلان على تليجرام ↗</a>
+      </div>
+    </div>`;
+    if (!lb.open) lb.showModal();
+  }
+  lb.addEventListener("click", e => {
+    if (e.target === lb || e.target.closest("[data-close]")) lb.close();
+  });
+
+  // ───────── events ─────────
+  $("#searchForm").addEventListener("submit", e => {
+    e.preventDefault();
+    state.q = $("#q").value.trim();
+    state.shown = PAGE;
+    go("search");
+  });
+  let typing;
+  $("#q").addEventListener("input", () => {
+    clearTimeout(typing);
+    typing = setTimeout(() => {
+      state.q = $("#q").value.trim();
+      state.shown = PAGE;
+      if (location.hash === "#search") renderSearch(); else if (state.q.length >= 2) go("search");
+      $("#q").focus();
+    }, 250);
+  });
+  view.addEventListener("change", e => {
+    const map = { fCat: "cat", fType: "type", fSort: "sort" };
+    if (map[e.target.id]) { state[map[e.target.id]] = e.target.value; state.shown = PAGE; renderSearch(); }
+  });
+  document.addEventListener("click", e => {
+    const p = e.target.closest("[data-poster]");
+    if (p) { e.preventDefault(); openPoster(p.dataset.poster); return; }
+    const t = e.target.closest("[data-tab]");
+    if (t) { state.posterTab = t.dataset.tab; renderPosters(); return; }
+    const j = e.target.closest("[data-jump]");
+    if (j) { e.preventDefault(); document.getElementById(j.dataset.jump)?.scrollIntoView({ behavior: "smooth", block: "start" }); return; }
+    if (e.target.id === "more") { state.shown += PAGE; renderSearch(); }
+  });
+})();
+</script>

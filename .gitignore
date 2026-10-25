@@ -1,0 +1,7 @@
+# generated locally, rebuilt by the workflow
+docs/
+work/
+__pycache__/
+.claude/
+# original poster images (the site uses the resized copies in site/p)
+data/posters/
