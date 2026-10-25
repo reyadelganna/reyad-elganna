@@ -158,6 +158,23 @@ def publish(g, plan, total):
     if member.get("status") != "administrator" or not member.get("can_post_messages"):
         raise SystemExit(f"البوت @{me['username']} ليس مشرفًا بصلاحية النشر في القناة")
     print("bot:", "@" + me["username"], "| can edit:", member.get("can_edit_messages"))
+
+    # One-off maintenance, set by hand in the state file: remove the bot's own
+    # posts listed in "delete" (allowed within 48 hours of posting), re-pin the master.
+    if state.get("delete"):
+        ids = state["delete"]
+        for n in range(0, len(ids), 100):
+            tg.call("deleteMessages", chat_id=f"@{CH}", message_ids=ids[n:n + 100])
+        state["deleted"] = state.get("deleted", []) + ids
+        state["delete"] = []
+        json.dump(state, open(STATE, "w", encoding="utf8"), ensure_ascii=False, indent=1)
+        print("telegram index: deleted", len(ids), "posts")
+    if state.get("repin") and state.get("master"):
+        tg.call("pinChatMessage", chat_id=f"@{CH}", message_id=state["master"], disable_notification=True)
+        state["repin"] = False
+        json.dump(state, open(STATE, "w", encoding="utf8"), ensure_ascii=False, indent=1)
+        print("telegram index: re-pinned", state["master"])
+
     msgs = state.setdefault("series", {})
     changed = 0
     for k, p in plan.items():
