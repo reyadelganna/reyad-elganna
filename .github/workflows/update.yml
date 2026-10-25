@@ -45,6 +45,8 @@ jobs:
       # Posts/edits the index posts in the channel. Does nothing until the
       # TELEGRAM_BOT_TOKEN secret exists and data/telegram_index.json has "enabled": true.
       - name: Update index posts on Telegram
+        id: telegram
+        continue-on-error: true   # still commit the ids of whatever was posted
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         run: python -X utf8 tools/telegram_index.py --publish

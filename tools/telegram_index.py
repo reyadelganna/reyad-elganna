@@ -153,6 +153,11 @@ def publish(g, plan, total):
         print("telegram index: preview only (publishing", "disabled)" if not state.get("enabled") else "has no token)")
         return
     tg = TG(token)
+    me = tg.call("getMe")
+    member = tg.call("getChatMember", chat_id=f"@{CH}", user_id=me["id"])
+    if member.get("status") != "administrator" or not member.get("can_post_messages"):
+        raise SystemExit(f"البوت @{me['username']} ليس مشرفًا بصلاحية النشر في القناة")
+    print("bot:", "@" + me["username"], "| can edit:", member.get("can_edit_messages"))
     msgs = state.setdefault("series", {})
     changed = 0
     for k, p in plan.items():
