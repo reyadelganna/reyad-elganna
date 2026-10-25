@@ -9,7 +9,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
-from rules import RULES, CATEGORIES, BOOK_ALIASES, OVERRIDES, SERIES_ALIASES  # noqa: E402
+from rules import RULES, CATEGORIES, BOOK_ALIASES, OVERRIDES, remap  # noqa: E402
 
 CH = "reyad_elganna"
 AR_DIGITS = str.maketrans("٠١٢٣٤٥٦٧٨٩", "0123456789")
@@ -39,7 +39,12 @@ def real_lines(text):
             if not re.fullmatch(r"(#[\w]+\s*)+", l) and not GENERIC.fullmatch(l)]
 
 
+BULLETIN = "نشرة أخبار قناة رياض الجنة"
+
+
 def media_type(p):
+    if BULLETIN in p["text"]:
+        return "text"
     if p["videos"] or any(d["title"].lower().endswith(".mp4") for d in p["docs"]):
         return "video"
     if any(".pdf" in d["title"].lower() or d["title"].startswith("Noor_Book") for d in p["docs"]):
@@ -179,13 +184,18 @@ def main():
         if label and GENERIC.fullmatch(label):
             label = None
         c = classify({**p, "text": p["text"] + "\n" + (label or "")})
+        if media_type(p) == "text":
+            m = re.search(r"\(([^)]*\d{4})\)", clean(p["text"]))
+            c = {"category": "الاقتصاد الإسلامي", "series": "النشرة الدورية للاقتصاد الإسلامي حول العالم",
+                 "title": "النشرة الدورية: " + (m.group(1).strip() if m else p["date"][:10])}
         inherited = False
         if not ls and c["category"] == MISC and p["id"] not in OVERRIDES:
             nb = neighbour(idx)
             if nb:
                 c = {k: nb.get(k) for k in ("category", "series", "sub")}
                 inherited = True
-        series = SERIES_ALIASES.get(c["series"], c["series"])
+        cat, series, sub = remap(c["series"], c.get("sub"), p["id"], p["text"] + "\n" + (label or ""))
+        c = {**c, "category": cat, "series": series, "sub": sub}
         no_urls = re.sub(r"https?://\S+", "", p["text"] + "\n" + (label or ""))
         ep = extract_ep(no_urls) if (ls or label) else None
         used = None

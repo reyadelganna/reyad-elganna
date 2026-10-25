@@ -15,10 +15,10 @@ from openpyxl.utils import get_column_letter
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
-from rules import CATEGORIES  # noqa: E402
+from rules import CATEGORIES, SERIES_ORDER  # noqa: E402
 
 CATS = CATEGORIES + ["متفرقات"]
-TYPE_AR = {"audio": "صوتي", "video": "فيديو", "pdf": "PDF"}
+TYPE_AR = {"audio": "صوتي", "video": "فيديو", "pdf": "PDF", "text": "منشور نصي"}
 TG_LIMIT = 4000
 FONT = "Arial"
 GREEN = "1F5C46"
@@ -32,7 +32,8 @@ def grouped(items):
     first = {}
     for i in sorted(items, key=lambda i: i["id"]):
         first.setdefault((i["series"], i["sub"]), i["id"])
-    for i in sorted(items, key=lambda i: (-sizes[(i["category"], i["series"])], i["series"],
+    order = lambda s: SERIES_ORDER.index(s) if s in SERIES_ORDER else 999
+    for i in sorted(items, key=lambda i: (order(i["series"]), -sizes[(i["category"], i["series"])], i["series"],
                                          first[(i["series"], i["sub"])], i["id"])):
         out[i["category"]].setdefault(i["series"], []).append(i)
     return out
@@ -129,7 +130,7 @@ def build_excel(items, g):
 # ───────────────────────── Telegram ─────────────────────────
 def lesson_line(i):
     ep = f"{i['ep']}. " if i["ep"] and i["ep"] < 1000 and str(i["ep"]) not in i["title"] else ""
-    icon = {"video": "🎬 ", "pdf": "📄 "}.get(i["type"], "")
+    icon = {"video": "🎬 ", "pdf": "📄 ", "text": "📰 "}.get(i["type"], "")
     return f"▫️ {icon}{ep}{i['title']}\nt.me/reyad_elganna/{i['id']}"
 
 

@@ -253,7 +253,7 @@ footer a { color: var(--green); }
 <script>
 (() => {
   const CH = "https://t.me/reyad_elganna/";
-  const TYPE = { video: "فيديو", pdf: "PDF" };
+  const TYPE = { video: "فيديو", pdf: "PDF", text: "منشور" };
   const PAGE = 40;
   const $ = (s, el = document) => el.querySelector(s);
   const view = $("#view");
@@ -327,7 +327,7 @@ footer a { color: var(--green); }
       </div>
       <div class="act">
         ${x.g ? `<button class="thumb" data-poster="${x.g}" aria-label="عرض إعلان الدرس"><img src="${posterImg(x.g)}" alt="" loading="lazy"></button>` : ""}
-        <a class="go" href="${CH}${x.i}" target="_blank" rel="noopener">${x.y === "pdf" ? "تحميل" : x.y === "video" ? "مشاهدة" : "استماع"} ↗</a>
+        <a class="go" href="${CH}${x.i}" target="_blank" rel="noopener">${x.y === "pdf" ? "تحميل" : x.y === "video" ? "مشاهدة" : x.y === "text" ? "قراءة" : "استماع"} ↗</a>
       </div>
     </li>`;
   }
@@ -577,7 +577,7 @@ footer a { color: var(--green); }
         <label for="fCat" class="muted">التصنيف</label>
         <select id="fCat"><option value="">الكل</option>${cats}</select>
         <label for="fType" class="muted">النوع</label>
-        <select id="fType"><option value="">الكل</option><option value="audio" ${state.type === "audio" ? "selected" : ""}>صوتي</option><option value="video" ${state.type === "video" ? "selected" : ""}>فيديو</option><option value="pdf" ${state.type === "pdf" ? "selected" : ""}>PDF</option></select>
+        <select id="fType"><option value="">الكل</option><option value="audio" ${state.type === "audio" ? "selected" : ""}>صوتي</option><option value="video" ${state.type === "video" ? "selected" : ""}>فيديو</option><option value="pdf" ${state.type === "pdf" ? "selected" : ""}>PDF</option><option value="text" ${state.type === "text" ? "selected" : ""}>منشورات</option></select>
         <label for="fSort" class="muted">الترتيب</label>
         <select id="fSort"><option value="rel" ${state.sort === "rel" ? "selected" : ""}>الأقرب للبحث</option><option value="new" ${state.sort === "new" ? "selected" : ""}>الأحدث</option><option value="old" ${state.sort === "old" ? "selected" : ""}>الأقدم</option></select>
       </div>

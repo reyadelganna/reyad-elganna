@@ -10,7 +10,7 @@ from PIL import Image
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
-from rules import CATEGORIES  # noqa: E402
+from rules import CATEGORIES, SERIES_ORDER  # noqa: E402
 
 SITE = ROOT / "site"
 CATS = CATEGORIES + ["متفرقات"]
@@ -50,7 +50,7 @@ def main():
             im.save(out, "WEBP", quality=72, method=6)
 
     sizes = Counter((i["category"], i["series"]) for i in items)
-    series_keys = sorted(sizes, key=lambda k: (CATS.index(k[0]), -sizes[k], k[1]))
+    series_keys = sorted(sizes, key=lambda k: (CATS.index(k[0]), SERIES_ORDER.index(k[1]) if k[1] in SERIES_ORDER else 999, -sizes[k]))
     sidx = {k: n for n, k in enumerate(series_keys)}
 
     by_lecture, covers = {}, {}

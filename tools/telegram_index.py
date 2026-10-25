@@ -18,7 +18,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
-from rules import CATEGORIES  # noqa: E402
+from rules import CATEGORIES, SERIES_ORDER  # noqa: E402
 
 CH = "reyad_elganna"
 SITE = "https://reyadelganna.github.io/reyad-elganna/"
@@ -41,7 +41,8 @@ def grouped(items):
     first = {}
     for i in sorted(items, key=lambda i: i["id"]):
         first.setdefault((i["series"], i["sub"]), i["id"])
-    for i in sorted(items, key=lambda i: (-sizes[(i["category"], i["series"])], i["series"],
+    order = lambda s: SERIES_ORDER.index(s) if s in SERIES_ORDER else 999
+    for i in sorted(items, key=lambda i: (order(i["series"]), -sizes[(i["category"], i["series"])], i["series"],
                                          first[(i["series"], i["sub"])], i["id"])):
         out[i["category"]].setdefault(i["series"], []).append(i)
     return out
@@ -54,7 +55,7 @@ def key_of(series):
 def lesson_line(i):
     t = i["title"] if len(i["title"]) <= TITLE_MAX else i["title"][:TITLE_MAX - 1] + "…"
     ep = f"{i['ep']}. " if i["ep"] and i["ep"] < 1000 and str(i["ep"]) not in t else ""
-    icon = {"video": "🎬 ", "pdf": "📄 "}.get(i["type"], "")
+    icon = {"video": "🎬 ", "pdf": "📄 ", "text": "📰 "}.get(i["type"], "")
     return f'▫️ {icon}<a href="https://t.me/{CH}/{i["id"]}">{e(ep + t)}</a>', len(icon) + len(ep + t) + 3
 
 
@@ -174,6 +175,38 @@ def publish(g, plan, total):
         state["repin"] = False
         json.dump(state, open(STATE, "w", encoding="utf8"), ensure_ascii=False, indent=1)
         print("telegram index: re-pinned", state["master"])
+
+    # "relayout": the series order changed, so reuse the existing posts in their
+    # channel order for the new layout (edit in place), post any extra at the end,
+    # and delete leftovers. Progress is saved after every post so a failed run resumes.
+    if state.get("relayout"):
+        if "relayout_pool" not in state:
+            state["relayout_pool"] = sorted(i for v in state.get("series", {}).values() for i in v["ids"])
+            state["series"] = {}
+            json.dump(state, open(STATE, "w", encoding="utf8"), ensure_ascii=False, indent=1)
+        for k, p in plan.items():
+            if k in state["series"]:
+                continue
+            entry = {"ids": [], "hashes": []}
+            for text in p["posts"]:
+                if state["relayout_pool"]:
+                    mid = state["relayout_pool"].pop(0)
+                    tg.edit(mid, text)
+                else:
+                    mid = tg.send(text)
+                entry["ids"].append(mid)
+                entry["hashes"].append(digest(text))
+                state["series"][k] = entry
+                json.dump(state, open(STATE, "w", encoding="utf8"), ensure_ascii=False, indent=1)
+        left = state["relayout_pool"]
+        if left:
+            tg.call("deleteMessages", chat_id=f"@{CH}", message_ids=left)
+            state["deleted"] = state.get("deleted", []) + left
+        print("telegram index: relayout done,", len(left), "leftover posts deleted")
+        state["relayout"] = False
+        del state["relayout_pool"]
+        state["master_hash"] = None
+        json.dump(state, open(STATE, "w", encoding="utf8"), ensure_ascii=False, indent=1)
 
     msgs = state.setdefault("series", {})
     changed = 0
