@@ -43786,7 +43786,7 @@
   ],
   "tags": [],
   "inherited": false,
-  "views": "25"
+  "views": "33"
  },
  {
   "id": 3391,
@@ -43801,6 +43801,229 @@
   "topics": [],
   "tags": [],
   "inherited": false,
-  "views": "26"
+  "views": "34"
+ },
+ {
+  "id": 3392,
+  "url": "https://t.me/reyad_elganna/3392",
+  "date": "2026-10-29",
+  "type": "audio",
+  "category": "شروح السنة",
+  "series": "شرح صحيح الإمام مسلم (متجدد)",
+  "sub": "الجنائز",
+  "ep": 20,
+  "title": "باب ما يقال عند دخول القبور والدعاء لأهلها",
+  "topics": [],
+  "tags": [
+   "#شرح"
+  ],
+  "inherited": false,
+  "views": "8"
+ },
+ {
+  "id": 3393,
+  "url": "https://t.me/reyad_elganna/3393",
+  "date": "2026-10-29",
+  "type": "audio",
+  "category": "شروح السنة",
+  "series": "شرح صحيح الإمام مسلم (متجدد)",
+  "sub": "الجنائز",
+  "ep": 21,
+  "title": "باب ترك الصلاة على قاتل نفسه",
+  "topics": [],
+  "tags": [
+   "#شرح"
+  ],
+  "inherited": false,
+  "views": "7"
+ },
+ {
+  "id": 3394,
+  "url": "https://t.me/reyad_elganna/3394",
+  "date": "2026-10-29",
+  "type": "audio",
+  "category": "شروح السنة",
+  "series": "شرح صحيح الإمام مسلم (متجدد)",
+  "sub": "الزكاة",
+  "ep": 37,
+  "title": "باب ذكر الخوارج وصفاتهم-2",
+  "topics": [],
+  "tags": [
+   "#شرح"
+  ],
+  "inherited": false,
+  "views": "6"
+ },
+ {
+  "id": 3395,
+  "url": "https://t.me/reyad_elganna/3395",
+  "date": "2026-10-29",
+  "type": "audio",
+  "category": "شروح السنة",
+  "series": "شرح صحيح الإمام مسلم (متجدد)",
+  "sub": "الزكاة",
+  "ep": 38,
+  "title": "باب ذكر الخوارج وصفاتهم-3",
+  "topics": [],
+  "tags": [
+   "#شرح"
+  ],
+  "inherited": false,
+  "views": "6"
+ },
+ {
+  "id": 3396,
+  "url": "https://t.me/reyad_elganna/3396",
+  "date": "2026-10-29",
+  "type": "audio",
+  "category": "السيرة النبوية",
+  "series": "لقاءات السيرة النبوية",
+  "sub": "آخر باب من الحياة الطيبة",
+  "ep": 4,
+  "title": "آخر باب من الحياة الطيبة - الدرس 4",
+  "topics": [
+   "آخر باب من الحياة الطيبة-4"
+  ],
+  "tags": [
+   "#لقاء_السيرة_النبوية"
+  ],
+  "inherited": false,
+  "views": "7"
+ },
+ {
+  "id": 3397,
+  "url": "https://t.me/reyad_elganna/3397",
+  "date": "2026-10-29",
+  "type": "audio",
+  "category": "شروح السنة",
+  "series": "شرح صحيح الإمام مسلم (متجدد)",
+  "sub": "الزكاة",
+  "ep": 39,
+  "title": "باب ذكر الخوارج وصفاتهم-4",
+  "topics": [],
+  "tags": [
+   "#شرح"
+  ],
+  "inherited": false,
+  "views": "8"
+ },
+ {
+  "id": 3398,
+  "url": "https://t.me/reyad_elganna/3398",
+  "date": "2026-10-29",
+  "type": "audio",
+  "category": "الخطب",
+  "series": "خطب الجمعة",
+  "sub": null,
+  "ep": null,
+  "title": "وأعدوا لهم ما استطعتم من قوة",
+  "topics": [],
+  "tags": [
+   "#خطبة"
+  ],
+  "inherited": false,
+  "views": "6"
+ },
+ {
+  "id": 3399,
+  "url": "https://t.me/reyad_elganna/3399",
+  "date": "2026-10-29",
+  "type": "audio",
+  "category": "شروح السنة",
+  "series": "شرح صحيح الإمام مسلم (متجدد)",
+  "sub": "الزكاة",
+  "ep": 40,
+  "title": "باب التحريض على قتل الخوارج - 1",
+  "topics": [],
+  "tags": [
+   "#شرح"
+  ],
+  "inherited": false,
+  "views": "6"
+ },
+ {
+  "id": 3400,
+  "url": "https://t.me/reyad_elganna/3400",
+  "date": "2026-10-29",
+  "type": "audio",
+  "category": "شروح السنة",
+  "series": "شرح صحيح الإمام مسلم (متجدد)",
+  "sub": "الزكاة",
+  "ep": 41,
+  "title": "باب التحريض على قتل الخوارج - 2",
+  "topics": [],
+  "tags": [
+   "#شرح"
+  ],
+  "inherited": false,
+  "views": "7"
+ },
+ {
+  "id": 3401,
+  "url": "https://t.me/reyad_elganna/3401",
+  "date": "2026-10-29",
+  "type": "audio",
+  "category": "شروح السنة",
+  "series": "شرح صحيح الإمام مسلم (متجدد)",
+  "sub": "الزكاة",
+  "ep": 42,
+  "title": "باب التحريض على قتل الخوارج - 3",
+  "topics": [],
+  "tags": [
+   "#شرح"
+  ],
+  "inherited": false,
+  "views": "7"
+ },
+ {
+  "id": 3402,
+  "url": "https://t.me/reyad_elganna/3402",
+  "date": "2026-10-29",
+  "type": "audio",
+  "category": "شروح السنة",
+  "series": "شرح صحيح الإمام مسلم (متجدد)",
+  "sub": "الزكاة",
+  "ep": 43,
+  "title": "باب الخوارج شر الخلق والخليقة",
+  "topics": [],
+  "tags": [
+   "#شرح"
+  ],
+  "inherited": false,
+  "views": "3"
+ },
+ {
+  "id": 3403,
+  "url": "https://t.me/reyad_elganna/3403",
+  "date": "2026-10-29",
+  "type": "audio",
+  "category": "شروح السنة",
+  "series": "شرح صحيح الإمام مسلم (متجدد)",
+  "sub": "الزكاة",
+  "ep": 44,
+  "title": "باب تحريم الزكاة على رسول الله صلى الله عليه وسلم وال بيته",
+  "topics": [],
+  "tags": [
+   "#شرح"
+  ],
+  "inherited": false,
+  "views": "2"
+ },
+ {
+  "id": 3404,
+  "url": "https://t.me/reyad_elganna/3404",
+  "date": "2026-10-29",
+  "type": "audio",
+  "category": "شروح السنة",
+  "series": "شرح صحيح الإمام مسلم (متجدد)",
+  "sub": "الزكاة",
+  "ep": 45,
+  "title": "باب ترك استعمال ال بيت النبي على الصدقة",
+  "topics": [],
+  "tags": [
+   "#شرح"
+  ],
+  "inherited": false,
+  "views": "1"
  }
 ]
