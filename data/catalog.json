@@ -43801,7 +43801,7 @@
   "topics": [],
   "tags": [],
   "inherited": false,
-  "views": "34"
+  "views": "35"
  },
  {
   "id": 3392,
@@ -43818,7 +43818,7 @@
    "#شرح"
   ],
   "inherited": false,
-  "views": "8"
+  "views": "9"
  },
  {
   "id": 3393,
@@ -43835,7 +43835,7 @@
    "#شرح"
   ],
   "inherited": false,
-  "views": "7"
+  "views": "8"
  },
  {
   "id": 3394,
@@ -43852,7 +43852,7 @@
    "#شرح"
   ],
   "inherited": false,
-  "views": "6"
+  "views": "7"
  },
  {
   "id": 3395,
@@ -43869,7 +43869,7 @@
    "#شرح"
   ],
   "inherited": false,
-  "views": "6"
+  "views": "7"
  },
  {
   "id": 3396,
@@ -43888,7 +43888,7 @@
    "#لقاء_السيرة_النبوية"
   ],
   "inherited": false,
-  "views": "7"
+  "views": "8"
  },
  {
   "id": 3397,
@@ -43990,7 +43990,7 @@
    "#شرح"
   ],
   "inherited": false,
-  "views": "3"
+  "views": "5"
  },
  {
   "id": 3403,
@@ -44007,7 +44007,7 @@
    "#شرح"
   ],
   "inherited": false,
-  "views": "2"
+  "views": "5"
  },
  {
   "id": 3404,
@@ -44024,6 +44024,108 @@
    "#شرح"
   ],
   "inherited": false,
-  "views": "1"
+  "views": "5"
+ },
+ {
+  "id": 3405,
+  "url": "https://t.me/reyad_elganna/3405",
+  "date": "2026-10-29",
+  "type": "audio",
+  "category": "شروح السنة",
+  "series": "شرح صحيح الإمام مسلم (متجدد)",
+  "sub": "الزكاة",
+  "ep": 46,
+  "title": "باب إباحة الهدية للنبي وال بيته وان كان المهدي ملكها بطريق الصدقة",
+  "topics": [],
+  "tags": [
+   "#شرح"
+  ],
+  "inherited": false,
+  "views": "4"
+ },
+ {
+  "id": 3406,
+  "url": "https://t.me/reyad_elganna/3406",
+  "date": "2026-10-29",
+  "type": "audio",
+  "category": "شروح السنة",
+  "series": "شرح صحيح الإمام مسلم (متجدد)",
+  "sub": "النكاح",
+  "ep": 1,
+  "title": "باب استحباب النكاح لمن تاقت نفسه إليه - 1",
+  "topics": [],
+  "tags": [
+   "#شرح"
+  ],
+  "inherited": false,
+  "views": "4"
+ },
+ {
+  "id": 3407,
+  "url": "https://t.me/reyad_elganna/3407",
+  "date": "2026-10-29",
+  "type": "audio",
+  "category": "السيرة النبوية",
+  "series": "لقاءات السيرة النبوية",
+  "sub": "لقاءات متفرقة",
+  "ep": null,
+  "title": "البيت النبوي، ختام السيرة المطهرة",
+  "topics": [],
+  "tags": [
+   "#لقاء_السيرة_النبوية"
+  ],
+  "inherited": false,
+  "views": "6"
+ },
+ {
+  "id": 3408,
+  "url": "https://t.me/reyad_elganna/3408",
+  "date": "2026-10-29",
+  "type": "audio",
+  "category": "شروح السنة",
+  "series": "شرح صحيح الإمام مسلم (متجدد)",
+  "sub": "البيوع",
+  "ep": 1,
+  "title": "باب ابطال بيع الملامسة والمنابذة",
+  "topics": [],
+  "tags": [
+   "#شرح"
+  ],
+  "inherited": false,
+  "views": "6"
+ },
+ {
+  "id": 3410,
+  "url": "https://t.me/reyad_elganna/3410",
+  "date": "2026-10-29",
+  "type": "audio",
+  "category": "شروح السنة",
+  "series": "شرح صحيح الإمام مسلم (متجدد)",
+  "sub": "البيوع",
+  "ep": 2,
+  "title": "باب بطلان بيع الحصة، وما فيه غرر",
+  "topics": [],
+  "tags": [
+   "#شرح"
+  ],
+  "inherited": false,
+  "views": "4"
+ },
+ {
+  "id": 3411,
+  "url": "https://t.me/reyad_elganna/3411",
+  "date": "2026-10-29",
+  "type": "audio",
+  "category": "شروح السنة",
+  "series": "شرح صحيح الإمام مسلم (متجدد)",
+  "sub": "البيوع",
+  "ep": 3,
+  "title": "باب تحريم بيع حبل الحبلة",
+  "topics": [],
+  "tags": [
+   "#شرح"
+  ],
+  "inherited": false,
+  "views": "4"
  }
 ]

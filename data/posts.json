@@ -70348,7 +70348,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "34",
+  "views": "35",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -70370,7 +70370,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "8",
+  "views": "9",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -70392,7 +70392,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "7",
+  "views": "8",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -70414,7 +70414,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "6",
+  "views": "7",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -70436,7 +70436,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "6",
+  "views": "7",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -70458,7 +70458,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "7",
+  "views": "8",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -70590,7 +70590,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "3",
+  "views": "5",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -70612,7 +70612,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "2",
+  "views": "5",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -70634,7 +70634,139 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "1",
+  "views": "5",
+  "reply_to": null,
+  "forwarded_from": ""
+ },
+ {
+  "id": 3405,
+  "url": "https://t.me/reyad_elganna/3405",
+  "date": "2026-10-29T14:16:10+00:00",
+  "text": "#شرح\n صحيح الإمام مسلم\nكتاب الزكاة - ٤٦\n⛔️\n باب إباحة الهدية للنبي وال بيته وان كان المهدي ملكها بطريق الصدقة",
+  "links": [
+   "?q=%23%D8%B4%D8%B1%D8%AD"
+  ],
+  "docs": [
+   {
+    "title": "Audio",
+    "extra": "",
+    "audio": false
+   }
+  ],
+  "voice": 0,
+  "photos": [],
+  "videos": 0,
+  "views": "4",
+  "reply_to": null,
+  "forwarded_from": ""
+ },
+ {
+  "id": 3406,
+  "url": "https://t.me/reyad_elganna/3406",
+  "date": "2026-10-29T14:22:50+00:00",
+  "text": "#شرح\n صحيح الإمام مسلم\nكتاب النكاح - ١\n⛔️\n باب استحباب النكاح لمن تاقت نفسه إليه - ١",
+  "links": [
+   "?q=%23%D8%B4%D8%B1%D8%AD"
+  ],
+  "docs": [
+   {
+    "title": "Audio",
+    "extra": "",
+    "audio": false
+   }
+  ],
+  "voice": 0,
+  "photos": [],
+  "videos": 0,
+  "views": "4",
+  "reply_to": null,
+  "forwarded_from": ""
+ },
+ {
+  "id": 3407,
+  "url": "https://t.me/reyad_elganna/3407",
+  "date": "2026-10-29T14:36:02+00:00",
+  "text": "‏\n#لقاء_السيرة_النبوية\n⛔️\n البيت النبوي، ختام السيرة المطهرة",
+  "links": [
+   "?q=%23%D9%84%D9%82%D8%A7%D8%A1_%D8%A7%D9%84%D8%B3%D9%8A%D8%B1%D8%A9_%D8%A7%D9%84%D9%86%D8%A8%D9%88%D9%8A%D8%A9"
+  ],
+  "docs": [
+   {
+    "title": "Audio",
+    "extra": "",
+    "audio": false
+   }
+  ],
+  "voice": 0,
+  "photos": [],
+  "videos": 0,
+  "views": "6",
+  "reply_to": null,
+  "forwarded_from": ""
+ },
+ {
+  "id": 3408,
+  "url": "https://t.me/reyad_elganna/3408",
+  "date": "2026-10-29T14:36:41+00:00",
+  "text": "‏\n#شرح\n صحيح الإمام مسلم\nكتاب البيوع - ١\n⛔️\n باب ابطال بيع الملامسة والمنابذة",
+  "links": [
+   "?q=%23%D8%B4%D8%B1%D8%AD"
+  ],
+  "docs": [
+   {
+    "title": "Audio",
+    "extra": "",
+    "audio": false
+   }
+  ],
+  "voice": 0,
+  "photos": [],
+  "videos": 0,
+  "views": "6",
+  "reply_to": null,
+  "forwarded_from": ""
+ },
+ {
+  "id": 3410,
+  "url": "https://t.me/reyad_elganna/3410",
+  "date": "2026-10-29T14:38:46+00:00",
+  "text": "‏\n#شرح\n صحيح الإمام مسلم\nكتاب البيوع - ٢\n⛔️\n باب بطلان بيع الحصة، وما فيه غرر",
+  "links": [
+   "?q=%23%D8%B4%D8%B1%D8%AD"
+  ],
+  "docs": [
+   {
+    "title": "Audio",
+    "extra": "",
+    "audio": false
+   }
+  ],
+  "voice": 0,
+  "photos": [],
+  "videos": 0,
+  "views": "4",
+  "reply_to": null,
+  "forwarded_from": ""
+ },
+ {
+  "id": 3411,
+  "url": "https://t.me/reyad_elganna/3411",
+  "date": "2026-10-29T14:40:48+00:00",
+  "text": "‏\n#شرح\n صحيح الإمام مسلم\nكتاب البيوع - ٣\n⛔️\n باب تحريم بيع حبل الحبلة",
+  "links": [
+   "?q=%23%D8%B4%D8%B1%D8%AD"
+  ],
+  "docs": [
+   {
+    "title": "Audio",
+    "extra": "",
+    "audio": false
+   }
+  ],
+  "voice": 0,
+  "photos": [],
+  "videos": 0,
+  "views": "4",
   "reply_to": null,
   "forwarded_from": ""
  }
