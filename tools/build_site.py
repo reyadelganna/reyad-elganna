@@ -82,6 +82,8 @@ def main():
             r["p"] = i["topics"]
         if i["type"] != "audio":
             r["y"] = i["type"]
+        if i.get("order", i["id"]) != i["id"]:
+            r["o"] = i["order"]   # hand-set position inside its series
         if i["id"] in by_lecture:
             r["g"] = by_lecture[i["id"]]
         out_items.append(r)

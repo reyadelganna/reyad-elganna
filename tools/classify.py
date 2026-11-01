@@ -9,7 +9,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
-from rules import RULES, CATEGORIES, BOOK_ALIASES, OVERRIDES, remap  # noqa: E402
+from rules import RULES, CATEGORIES, BOOK_ALIASES, OVERRIDES, CURATED_OF, SECTION_OF, remap  # noqa: E402
 
 CH = "reyad_elganna"
 AR_DIGITS = str.maketrans("٠١٢٣٤٥٦٧٨٩", "0123456789")
@@ -210,6 +210,11 @@ def main():
         else:
             title = fallback_title(p, re.findall(r"#[\w]+", clean(p["text"])), media_type(p))
         title = re.sub(r"\s+", " ", title).strip()
+        order = p["id"]
+        if p["id"] in CURATED_OF:   # hand-ordered series: owner's title, number and position
+            series, n, title = CURATED_OF[p["id"]]
+            c = {**c, "category": SECTION_OF[series], "series": series, "sub": None}
+            ep, order = (None if media_type(p) == "pdf" else n), n
         topics = [t for t in topics_of(p["text"]) if t != used and t.strip(" .-–") != title]
         if not topics and used and used in ls:
             rest = ls[ls.index(used) + 1:ls.index(used) + 4]
@@ -227,6 +232,7 @@ def main():
             "topics": topics[:6],
             "tags": sorted(set(re.findall(r"#[\w]+", clean(p["text"])))),
             "inherited": inherited,
+            "order": order,
             "views": p["views"],
         }
         by_id[p["id"]] = item

@@ -34,7 +34,7 @@ def grouped(items):
         first.setdefault((i["series"], i["sub"]), i["id"])
     order = lambda s: SERIES_ORDER.index(s) if s in SERIES_ORDER else 999
     for i in sorted(items, key=lambda i: (order(i["series"]), -sizes[(i["category"], i["series"])], i["series"],
-                                         first[(i["series"], i["sub"])], i["id"])):
+                                         first[(i["series"], i["sub"])], i.get("order", i["id"]))):
         out[i["category"]].setdefault(i["series"], []).append(i)
     return out
 

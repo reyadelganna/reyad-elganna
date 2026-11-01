@@ -43,7 +43,7 @@ def grouped(items):
         first.setdefault((i["series"], i["sub"]), i["id"])
     order = lambda s: SERIES_ORDER.index(s) if s in SERIES_ORDER else 999
     for i in sorted(items, key=lambda i: (order(i["series"]), -sizes[(i["category"], i["series"])], i["series"],
-                                         first[(i["series"], i["sub"])], i["id"])):
+                                         first[(i["series"], i["sub"])], i.get("order", i["id"]))):
         out[i["category"]].setdefault(i["series"], []).append(i)
     return out
 
@@ -53,7 +53,8 @@ def key_of(series):
 
 
 def lesson_line(i):
-    t = i["title"] if len(i["title"]) <= TITLE_MAX else i["title"][:TITLE_MAX - 1] + "…"
+    hand_set = i.get("order", i["id"]) != i["id"]   # owner-written titles are shown in full
+    t = i["title"] if hand_set or len(i["title"]) <= TITLE_MAX else i["title"][:TITLE_MAX - 1] + "…"
     ep = f"{i['ep']}. " if i["ep"] and i["ep"] < 1000 and str(i["ep"]) not in t else ""
     icon = {"video": "🎬 ", "pdf": "📄 ", "text": "📰 "}.get(i["type"], "")
     return f'▫️ {icon}<a href="https://t.me/{CH}/{i["id"]}">{e(ep + t)}</a>', len(icon) + len(ep + t) + 3
@@ -200,8 +201,16 @@ def publish(g, plan, total):
                 json.dump(state, open(STATE, "w", encoding="utf8"), ensure_ascii=False, indent=1)
         left = state["relayout_pool"]
         if left:
-            tg.call("deleteMessages", chat_id=f"@{CH}", message_ids=left)
-            state["deleted"] = state.get("deleted", []) + left
+            try:
+                tg.call("deleteMessages", chat_id=f"@{CH}", message_ids=left)
+                state["deleted"] = state.get("deleted", []) + left
+            except RuntimeError:
+                # older than 48 hours: the bot may no longer delete them, so blank them out
+                master = state.get("master")
+                note = "🗂 هذا الفهرس انتقل." + (f'\n📌 <a href="https://t.me/{CH}/{master}">الفهرس الرئيسي</a>' if master else "")
+                for mid in left:
+                    tg.edit(mid, note)
+                state["retired"] = state.get("retired", []) + left
         print("telegram index: relayout done,", len(left), "leftover posts deleted")
         state["relayout"] = False
         del state["relayout_pool"]

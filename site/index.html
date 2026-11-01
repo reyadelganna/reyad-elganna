@@ -413,7 +413,7 @@ footer a { color: var(--green); }
 
   function renderSeries(i) {
     const s = S[i];
-    const items = I.filter(x => x.s === i);
+    const items = I.filter(x => x.s === i).sort((a, b) => (a.o ?? a.i) - (b.o ?? b.i));
     const groups = new Map();
     for (const x of items) {
       const k = x.b || "";
