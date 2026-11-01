@@ -2821,5 +2821,21 @@
   "sub": null,
   "kind": "lecture",
   "title": "النشرة الدورية: الخميس، 29 أكتوبر 2026"
+ },
+ {
+  "id": 3412,
+  "url": "https://t.me/reyad_elganna/3412",
+  "date": "2026-11-01",
+  "files": [
+   "data/posters/3412_0.jpg"
+  ],
+  "caption": "",
+  "targets": [
+   3413
+  ],
+  "series": "تأملات ورقائق متفرقة",
+  "sub": null,
+  "kind": "lecture",
+  "title": "وقفات إيمانية في الطريق من مكة إلى المدينة"
  }
 ]

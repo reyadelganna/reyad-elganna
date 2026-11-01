@@ -46379,7 +46379,7 @@
   ],
   "inherited": false,
   "order": 3396,
-  "views": "13"
+  "views": "14"
  },
  {
   "id": 3397,
@@ -46397,7 +46397,7 @@
   ],
   "inherited": false,
   "order": 3397,
-  "views": "13"
+  "views": "14"
  },
  {
   "id": 3398,
@@ -46577,7 +46577,7 @@
   ],
   "inherited": false,
   "order": 3407,
-  "views": "23"
+  "views": "24"
  },
  {
   "id": 3408,
@@ -46595,7 +46595,7 @@
   ],
   "inherited": false,
   "order": 3408,
-  "views": "23"
+  "views": "24"
  },
  {
   "id": 3410,
@@ -46613,7 +46613,7 @@
   ],
   "inherited": false,
   "order": 3410,
-  "views": "21"
+  "views": "22"
  },
  {
   "id": 3411,
@@ -46631,6 +46631,22 @@
   ],
   "inherited": false,
   "order": 3411,
-  "views": "22"
+  "views": "23"
+ },
+ {
+  "id": 3413,
+  "url": "https://t.me/reyad_elganna/3413",
+  "date": "2026-11-01",
+  "type": "audio",
+  "category": "التزكية",
+  "series": "تأملات ورقائق متفرقة",
+  "sub": null,
+  "ep": null,
+  "title": "وقفات إيمانية في الطريق من مكة إلى المدينة",
+  "topics": [],
+  "tags": [],
+  "inherited": false,
+  "order": 3413,
+  "views": "1"
  }
 ]
