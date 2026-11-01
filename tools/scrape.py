@@ -2,7 +2,9 @@
 
 Usage: python tools/scrape.py <channel> <out.json> [--full]
 By default only posts newer than those already in <out.json> are fetched;
---full re-reads the whole channel (picks up edits and deletions).
+--full re-reads the whole channel to pick up edited posts. Saved posts are
+never dropped: Telegram's preview sometimes stops answering partway through a
+long scan, and a partial scan once replaced 3165 saved posts with 999.
 New poster images are saved to data/posters/<post id>_<n>.jpg.
 """
 import json, os, re, sys, time, urllib.request
@@ -77,9 +79,9 @@ def parse(html):
 
 
 old = {}
-if os.path.exists(OUT) and not FULL:
+if os.path.exists(OUT):
     old = {p["id"]: p for p in json.load(open(OUT, encoding="utf8"))}
-known_max = max(old, default=0)
+known_max = 0 if FULL else max(old, default=0)
 
 fetched = {}
 before = None
@@ -99,8 +101,10 @@ while True:
 all_posts = {**old, **fetched}
 data = sorted(all_posts.values(), key=lambda p: p["id"])
 json.dump(data, open(OUT, "w", encoding="utf8"), ensure_ascii=False, indent=1)
-added = len([i for i in fetched if i not in old]) if old else len(fetched)
+added = len([i for i in fetched if i not in old])
 print("saved", len(data), "posts,", added, "new", file=sys.stderr)
+if FULL and old and min(fetched, default=0) > min(old):
+    print(f"warning: full scan stopped at post {min(fetched)}; older saved posts were kept", file=sys.stderr)
 
 # Poster images: the CDN links are only fresh right after scraping, so fetch now.
 POSTERS.mkdir(parents=True, exist_ok=True)
