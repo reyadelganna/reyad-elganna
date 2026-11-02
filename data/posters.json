@@ -2837,5 +2837,21 @@
   "sub": null,
   "kind": "lecture",
   "title": "وقفات إيمانية في الطريق من مكة إلى المدينة"
+ },
+ {
+  "id": 3414,
+  "url": "https://t.me/reyad_elganna/3414",
+  "date": "2026-11-02",
+  "files": [
+   "data/posters/3414_0.jpg"
+  ],
+  "caption": "",
+  "targets": [
+   3415
+  ],
+  "series": "مواد متنوعة",
+  "sub": null,
+  "kind": "lecture",
+  "title": "فضائل المدينة المنورة وآداب الزيارة"
  }
 ]
