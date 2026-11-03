@@ -2869,5 +2869,21 @@
   "sub": null,
   "kind": "lecture",
   "title": "معالم مسجد الحبيب صلى الله عليه وسلم وتاريخه والروضة الشريفة"
+ },
+ {
+  "id": 3419,
+  "url": "https://t.me/reyad_elganna/3419",
+  "date": "2026-11-03",
+  "files": [
+   "data/posters/3419_0.jpg"
+  ],
+  "caption": "",
+  "targets": [
+   3418
+  ],
+  "series": "مواد متنوعة",
+  "sub": null,
+  "kind": "lecture",
+  "title": "ملخص توسعات مسجد الحبيب صلى الله عليه وسلم"
  }
 ]
