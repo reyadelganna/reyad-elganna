@@ -70394,7 +70394,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "25",
+  "views": "26",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -70691,6 +70691,42 @@
   "photos": [],
   "videos": 0,
   "views": "20",
+  "reply_to": null,
+  "forwarded_from": ""
+ },
+ {
+  "id": 3416,
+  "url": "https://t.me/reyad_elganna/3416",
+  "date": "2026-11-03T02:58:18+00:00",
+  "text": "",
+  "links": [],
+  "docs": [],
+  "voice": 0,
+  "photos": [
+   "https://cdn4.telesco.pe/file/ehZTdh-4BLh-8_vqTAzH2hxOdPn-WCG_UyjKgkYIWYdR9HR-WmT7F1lKyy5rl3PSsSsQbetlX6Oa9pcRZlsHCqRiLStnu8OQi_9ZoRONmi8ddNobz3XOdJZhj0PT61deUPOJlewecZuU2e8ZApF8dfjzD7xRbLtyGK1E7Ot5E9ljRFKb8lxswkLGp1bBh5xXkw91zdBT4RMbmVFNWG8AIVeVbUcI790mY4P2kuS94PbZeMhWkpr-wzXmox_zCNQUoF2vvhIrVX_8olN-5hSFIe44cyVFJ4h_lzv9q1dz-9c4gqKPmnUYjWrB1PNUoLhW-CgPuAYC_Bs0ww4PY8Bk4g.jpg"
+  ],
+  "videos": 0,
+  "views": "1",
+  "reply_to": null,
+  "forwarded_from": ""
+ },
+ {
+  "id": 3417,
+  "url": "https://t.me/reyad_elganna/3417",
+  "date": "2026-11-03T02:59:27+00:00",
+  "text": "‏مقطع صوتي من محمود علي",
+  "links": [],
+  "docs": [
+   {
+    "title": "Audio",
+    "extra": "",
+    "audio": false
+   }
+  ],
+  "voice": 0,
+  "photos": [],
+  "videos": 0,
+  "views": "1",
   "reply_to": null,
   "forwarded_from": ""
  }

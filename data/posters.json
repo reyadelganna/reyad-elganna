@@ -2853,5 +2853,21 @@
   "sub": null,
   "kind": "lecture",
   "title": "فضائل المدينة المنورة وآداب الزيارة"
+ },
+ {
+  "id": 3416,
+  "url": "https://t.me/reyad_elganna/3416",
+  "date": "2026-11-03",
+  "files": [
+   "data/posters/3416_0.jpg"
+  ],
+  "caption": "",
+  "targets": [
+   3417
+  ],
+  "series": "مواد متنوعة",
+  "sub": null,
+  "kind": "lecture",
+  "title": "مقطع صوتي"
  }
 ]
