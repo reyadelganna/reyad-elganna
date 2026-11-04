@@ -70526,7 +70526,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "36",
+  "views": "37",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -70570,7 +70570,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "48",
+  "views": "49",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -70744,7 +70744,7 @@
   "voice": 0,
   "photos": [],
   "videos": 1,
-  "views": "25",
+  "views": "26",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -70760,7 +70760,7 @@
    "https://cdn4.telesco.pe/file/r9sngcfD7CC9L0KDC_kDdXU_XnVgO2vsxKFoVXOtTBlzPYTTfaUdm1CypQ3YgXjsGo_nKB7p9ZA6Pq3xdEjO6ZevZ_Otrao2Pe7nesY_IphulHM9khIgll3Jf5t_XKi9aDp2kLPz5i8y34yP-NKXEBAFnCi2Bi3RAl2OdQpQuTzN91dqKwWR3L61QJBnOjh8KTVWJzqAiovETZcOSyhvgmZwXmPJWGUQBh03UL7jSOg31__vkr6SzZe2FZA1zTaFhO_SEJTFHRvd1gtqaBZQ75kULQmMgkfDwxSSFLr0QHCPNfOdmlRIG9ohtFuK8T3AWlE2mlopkp_HVF3Y98kgqg.jpg"
   ],
   "videos": 0,
-  "views": "25",
+  "views": "26",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -70782,8 +70782,38 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "19",
+  "views": "20",
   "reply_to": null,
+  "forwarded_from": ""
+ },
+ {
+  "id": 3421,
+  "url": "https://t.me/reyad_elganna/3421",
+  "date": "2026-11-04T08:04:33+00:00",
+  "text": "https://al-forqan.net/%d9%85%d8%ad%d8%a7%d8%b6%d8%b1%d8%a7%d8%aa-%d9%85%d8%b1%d9%83%d8%b2-%d8%aa%d8%b1%d8%a7%d8%ab-%d9%84%d9%84%d8%aa%d8%af%d8%b1%d9%8a%d8%a8-%d8%a2%d9%81%d8%a7%d9%82-%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1/",
+  "links": [
+   "https://al-forqan.net/%d9%85%d8%ad%d8%a7%d8%b6%d8%b1%d8%a7%d8%aa-%d9%85%d8%b1%d9%83%d8%b2-%d8%aa%d8%b1%d8%a7%d8%ab-%d9%84%d9%84%d8%aa%d8%af%d8%b1%d9%8a%d8%a8-%d8%a2%d9%81%d8%a7%d9%82-%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1/"
+  ],
+  "docs": [],
+  "voice": 0,
+  "photos": [],
+  "videos": 0,
+  "views": "8",
+  "reply_to": null,
+  "forwarded_from": ""
+ },
+ {
+  "id": 3422,
+  "url": "https://t.me/reyad_elganna/3422",
+  "date": "2026-11-04T08:05:00+00:00",
+  "text": "https://al-forqan.net/%d9%85%d8%ad%d8%a7%d8%b6%d8%b1%d8%a7%d8%aa-%d9%85%d8%b1%d9%83%d8%b2-%d8%aa%d8%b1%d8%a7%d8%ab-%d9%84%d9%84%d8%aa%d8%af%d8%b1%d9%8a%d8%a8-%d8%a2%d9%81%d8%a7%d9%82-%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1/",
+  "links": [],
+  "docs": [],
+  "voice": 0,
+  "photos": [],
+  "videos": 0,
+  "views": "9",
+  "reply_to": 3421,
   "forwarded_from": ""
  }
 ]
