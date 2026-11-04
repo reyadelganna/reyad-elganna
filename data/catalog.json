@@ -46559,7 +46559,7 @@
   ],
   "inherited": false,
   "order": 3406,
-  "views": "38"
+  "views": "39"
  },
  {
   "id": 3407,
@@ -46577,7 +46577,7 @@
   ],
   "inherited": false,
   "order": 3407,
-  "views": "49"
+  "views": "50"
  },
  {
   "id": 3408,
@@ -46595,7 +46595,7 @@
   ],
   "inherited": false,
   "order": 3408,
-  "views": "50"
+  "views": "51"
  },
  {
   "id": 3410,
@@ -46613,7 +46613,7 @@
   ],
   "inherited": false,
   "order": 3410,
-  "views": "45"
+  "views": "46"
  },
  {
   "id": 3411,
@@ -46631,7 +46631,7 @@
   ],
   "inherited": false,
   "order": 3411,
-  "views": "53"
+  "views": "54"
  },
  {
   "id": 3413,
@@ -46647,7 +46647,7 @@
   "tags": [],
   "inherited": false,
   "order": 3413,
-  "views": "43"
+  "views": "44"
  },
  {
   "id": 3415,
@@ -46663,7 +46663,7 @@
   "tags": [],
   "inherited": false,
   "order": 3415,
-  "views": "40"
+  "views": "41"
  },
  {
   "id": 3417,
@@ -46695,7 +46695,7 @@
   "tags": [],
   "inherited": false,
   "order": 3418,
-  "views": "29"
+  "views": "30"
  },
  {
   "id": 3420,
@@ -46711,6 +46711,22 @@
   "tags": [],
   "inherited": false,
   "order": 3420,
-  "views": "23"
+  "views": "27"
+ },
+ {
+  "id": 3423,
+  "url": "https://t.me/reyad_elganna/3423",
+  "date": "2026-11-04",
+  "type": "video",
+  "category": "السيرة النبوية",
+  "series": "لقاءات السيرة النبوية",
+  "sub": "غزوة أحد",
+  "ep": null,
+  "title": "مشاهد غزوة أحد ووقفات إيمانية من أرض المعركة",
+  "topics": [],
+  "tags": [],
+  "inherited": false,
+  "order": 3423,
+  "views": "6"
  }
 ]
