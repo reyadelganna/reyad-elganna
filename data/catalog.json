@@ -46663,7 +46663,7 @@
   "tags": [],
   "inherited": false,
   "order": 3415,
-  "views": "73"
+  "views": "74"
  },
  {
   "id": 3417,
@@ -46711,7 +46711,7 @@
   "tags": [],
   "inherited": false,
   "order": 3420,
-  "views": "63"
+  "views": "64"
  },
  {
   "id": 3423,
@@ -46727,7 +46727,7 @@
   "tags": [],
   "inherited": false,
   "order": 3423,
-  "views": "66"
+  "views": "68"
  },
  {
   "id": 3424,
@@ -46764,7 +46764,7 @@
   "tags": [],
   "inherited": false,
   "order": 3425,
-  "views": "131"
+  "views": "133"
  },
  {
   "id": 3428,
@@ -46785,7 +46785,7 @@
   "tags": [],
   "inherited": false,
   "order": 3428,
-  "views": "90"
+  "views": "92"
  },
  {
   "id": 3430,
@@ -46805,6 +46805,22 @@
   "tags": [],
   "inherited": false,
   "order": 3430,
-  "views": "59"
+  "views": "63"
+ },
+ {
+  "id": 3432,
+  "url": "https://t.me/reyad_elganna/3432",
+  "date": "2026-11-22",
+  "type": "pdf",
+  "category": "متفرقات",
+  "series": "مواد متنوعة",
+  "sub": null,
+  "ep": 2026,
+  "title": "مواد متنوعة - الدرس 2026",
+  "topics": [],
+  "tags": [],
+  "inherited": false,
+  "order": 3432,
+  "views": "14"
  }
 ]
