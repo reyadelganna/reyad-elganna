@@ -46764,7 +46764,7 @@
   "tags": [],
   "inherited": false,
   "order": 3425,
-  "views": "138"
+  "views": "141"
  },
  {
   "id": 3428,
@@ -46785,7 +46785,7 @@
   "tags": [],
   "inherited": false,
   "order": 3428,
-  "views": "98"
+  "views": "100"
  },
  {
   "id": 3430,
@@ -46805,7 +46805,7 @@
   "tags": [],
   "inherited": false,
   "order": 3430,
-  "views": "74"
+  "views": "78"
  },
  {
   "id": 3432,
@@ -46821,6 +46821,204 @@
   "tags": [],
   "inherited": false,
   "order": 3432,
-  "views": "66"
+  "views": "71"
+ },
+ {
+  "id": 3435,
+  "url": "https://t.me/reyad_elganna/3435",
+  "date": "2026-11-24",
+  "type": "video",
+  "category": "الاقتصاد الإسلامي",
+  "series": "محاضرات في الاقتصاد الإسلامي",
+  "sub": null,
+  "ep": 2026,
+  "title": "نشرة اخبار الاقتصاد الإسلامي حول العالم ليوم الثلاثاء 24 نوفمبر 2026",
+  "topics": [],
+  "tags": [],
+  "inherited": false,
+  "order": 3435,
+  "views": "13"
+ },
+ {
+  "id": 3436,
+  "url": "https://t.me/reyad_elganna/3436",
+  "date": "2026-11-24",
+  "type": "audio",
+  "category": "قصص الأنبياء",
+  "series": "سلسلة تأملات إيمانية في قصص الأنبياء",
+  "sub": "موسى",
+  "ep": 1,
+  "title": "الموسوية",
+  "topics": [
+   "تأملات إيمانية في سيرة نبي الله موسى عليه السلام - 1"
+  ],
+  "tags": [
+   "#السيرة"
+  ],
+  "inherited": false,
+  "order": 3436,
+  "views": "6"
+ },
+ {
+  "id": 3437,
+  "url": "https://t.me/reyad_elganna/3437",
+  "date": "2026-11-24",
+  "type": "audio",
+  "category": "شروح السنة",
+  "series": "شرح صحيح الإمام مسلم (متجدد)",
+  "sub": "النكاح",
+  "ep": 2,
+  "title": "باب استحباب النكاح لمن تاقت نفسه إليه - 2",
+  "topics": [],
+  "tags": [
+   "#شرح"
+  ],
+  "inherited": false,
+  "order": 3437,
+  "views": "7"
+ },
+ {
+  "id": 3438,
+  "url": "https://t.me/reyad_elganna/3438",
+  "date": "2026-11-24",
+  "type": "audio",
+  "category": "شروح السنة",
+  "series": "شرح صحيح الإمام مسلم (متجدد)",
+  "sub": "النكاح",
+  "ep": 3,
+  "title": "باب ندب من رأي امرأة فوقعت في نفسه أن يأتي امرأته",
+  "topics": [],
+  "tags": [
+   "#شرح"
+  ],
+  "inherited": false,
+  "order": 3438,
+  "views": "6"
+ },
+ {
+  "id": 3439,
+  "url": "https://t.me/reyad_elganna/3439",
+  "date": "2026-11-24",
+  "type": "audio",
+  "category": "شروح السنة",
+  "series": "شرح صحيح الإمام مسلم (متجدد)",
+  "sub": "البيوع",
+  "ep": 4,
+  "title": "باب تحريم بيع الرجل على بيع أخيه وسومه على سومه-1",
+  "topics": [],
+  "tags": [
+   "#شرح"
+  ],
+  "inherited": false,
+  "order": 3439,
+  "views": "7"
+ },
+ {
+  "id": 3440,
+  "url": "https://t.me/reyad_elganna/3440",
+  "date": "2026-11-24",
+  "type": "audio",
+  "category": "شروح السنة",
+  "series": "شرح صحيح الإمام مسلم (متجدد)",
+  "sub": "البيوع",
+  "ep": 5,
+  "title": "باب تحريم بيع الرجل على بيع أخيه وسومه على سومه-2",
+  "topics": [],
+  "tags": [
+   "#شرح"
+  ],
+  "inherited": false,
+  "order": 3440,
+  "views": "6"
+ },
+ {
+  "id": 3441,
+  "url": "https://t.me/reyad_elganna/3441",
+  "date": "2026-11-24",
+  "type": "audio",
+  "category": "شروح السنة",
+  "series": "شرح صحيح الإمام مسلم (متجدد)",
+  "sub": "البيوع",
+  "ep": 6,
+  "title": "باب تحريم تلقي الجلب",
+  "topics": [],
+  "tags": [
+   "#شرح"
+  ],
+  "inherited": false,
+  "order": 3441,
+  "views": "6"
+ },
+ {
+  "id": 3442,
+  "url": "https://t.me/reyad_elganna/3442",
+  "date": "2026-11-24",
+  "type": "audio",
+  "category": "شروح السنة",
+  "series": "شرح صحيح الإمام مسلم (متجدد)",
+  "sub": "البيوع",
+  "ep": 7,
+  "title": "باب بطلان بيع المبيع قبل القبض-1",
+  "topics": [],
+  "tags": [
+   "#شرح"
+  ],
+  "inherited": false,
+  "order": 3442,
+  "views": "5"
+ },
+ {
+  "id": 3443,
+  "url": "https://t.me/reyad_elganna/3443",
+  "date": "2026-11-24",
+  "type": "audio",
+  "category": "شروح السنة",
+  "series": "شرح صحيح الإمام مسلم (متجدد)",
+  "sub": "البيوع",
+  "ep": 8,
+  "title": "باب بطلان بيع المبيع قبل القبض-2",
+  "topics": [],
+  "tags": [
+   "#شرح"
+  ],
+  "inherited": false,
+  "order": 3443,
+  "views": "6"
+ },
+ {
+  "id": 3444,
+  "url": "https://t.me/reyad_elganna/3444",
+  "date": "2026-11-24",
+  "type": "audio",
+  "category": "شروح السنة",
+  "series": "شرح صحيح الإمام مسلم (متجدد)",
+  "sub": "البيوع",
+  "ep": 9,
+  "title": "باب بطلان بيع المبيع قبل القبض-3",
+  "topics": [],
+  "tags": [
+   "#شرح"
+  ],
+  "inherited": false,
+  "order": 3444,
+  "views": "6"
+ },
+ {
+  "id": 3445,
+  "url": "https://t.me/reyad_elganna/3445",
+  "date": "2026-11-24",
+  "type": "audio",
+  "category": "شروح السنة",
+  "series": "شرح صحيح الإمام مسلم (متجدد)",
+  "sub": "البيوع",
+  "ep": 10,
+  "title": "باب تحريم بيع صبرة التمر المجهولة بتمر",
+  "topics": [],
+  "tags": [
+   "#شرح"
+  ],
+  "inherited": false,
+  "order": 3445,
+  "views": "6"
  }
 ]
