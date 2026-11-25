@@ -70927,7 +70927,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "106",
+  "views": "107",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -70960,7 +70960,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "81",
+  "views": "82",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -70979,7 +70979,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "102",
+  "views": "104",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -70999,7 +70999,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "83",
+  "views": "86",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -71013,7 +71013,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "81",
+  "views": "84",
   "reply_to": 3432,
   "forwarded_from": ""
  },
@@ -71033,7 +71033,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "41",
+  "views": "55",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -71055,7 +71055,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "13",
+  "views": "14",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -71077,7 +71077,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "14",
+  "views": "15",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -71099,7 +71099,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "14",
+  "views": "16",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -71121,7 +71121,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "16",
+  "views": "19",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -71143,7 +71143,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "12",
+  "views": "15",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -71165,7 +71165,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "12",
+  "views": "14",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -71187,7 +71187,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "14",
+  "views": "17",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -71209,7 +71209,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "18",
+  "views": "21",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -71231,7 +71231,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "19",
+  "views": "24",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -71253,7 +71253,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "18",
+  "views": "23",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -71276,7 +71276,32 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "15",
+  "views": "23",
+  "reply_to": null,
+  "forwarded_from": ""
+ },
+ {
+  "id": 3447,
+  "url": "https://t.me/reyad_elganna/3447",
+  "date": "2026-11-25T12:05:10+00:00",
+  "text": ".\nللمتابعة المستمرة عبر صفحة نبض الاقتصاد الإسلامي عبر فيسبوك:\nhttps://www.facebook.com/share/1EFKMw11je/\nقناة رياض الجنة :\nتليجرام :\nhttps://t.me/reyad_elganna\nوالموقع:\nhttps://reyadelganna.github.io/reyad-elganna/#s3\nقناة أخبار المالية:\nhttps://t.me/Islamic_FNews",
+  "links": [
+   "https://www.facebook.com/share/1EFKMw11je/",
+   "https://t.me/reyad_elganna",
+   "https://reyadelganna.github.io/reyad-elganna/#s3",
+   "https://t.me/Islamic_FNews"
+  ],
+  "docs": [
+   {
+    "title": "VID-20261125-WA0024.mp4",
+    "extra": "4.5 MB",
+    "audio": false
+   }
+  ],
+  "voice": 0,
+  "photos": [],
+  "videos": 0,
+  "views": "26",
   "reply_to": null,
   "forwarded_from": ""
  }

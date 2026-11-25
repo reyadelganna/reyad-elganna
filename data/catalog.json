@@ -46785,7 +46785,7 @@
   "tags": [],
   "inherited": false,
   "order": 3428,
-  "views": "106"
+  "views": "107"
  },
  {
   "id": 3430,
@@ -46805,7 +46805,7 @@
   "tags": [],
   "inherited": false,
   "order": 3430,
-  "views": "81"
+  "views": "82"
  },
  {
   "id": 3432,
@@ -46821,7 +46821,7 @@
   "tags": [],
   "inherited": false,
   "order": 3432,
-  "views": "83"
+  "views": "86"
  },
  {
   "id": 3435,
@@ -46837,7 +46837,7 @@
   "tags": [],
   "inherited": false,
   "order": 3435,
-  "views": "41"
+  "views": "55"
  },
  {
   "id": 3436,
@@ -46857,7 +46857,7 @@
   ],
   "inherited": false,
   "order": 3436,
-  "views": "13"
+  "views": "14"
  },
  {
   "id": 3437,
@@ -46875,7 +46875,7 @@
   ],
   "inherited": false,
   "order": 3437,
-  "views": "14"
+  "views": "15"
  },
  {
   "id": 3438,
@@ -46893,7 +46893,7 @@
   ],
   "inherited": false,
   "order": 3438,
-  "views": "14"
+  "views": "16"
  },
  {
   "id": 3439,
@@ -46911,7 +46911,7 @@
   ],
   "inherited": false,
   "order": 3439,
-  "views": "16"
+  "views": "19"
  },
  {
   "id": 3440,
@@ -46929,7 +46929,7 @@
   ],
   "inherited": false,
   "order": 3440,
-  "views": "12"
+  "views": "15"
  },
  {
   "id": 3441,
@@ -46947,7 +46947,7 @@
   ],
   "inherited": false,
   "order": 3441,
-  "views": "12"
+  "views": "14"
  },
  {
   "id": 3442,
@@ -46965,7 +46965,7 @@
   ],
   "inherited": false,
   "order": 3442,
-  "views": "14"
+  "views": "17"
  },
  {
   "id": 3443,
@@ -46983,7 +46983,7 @@
   ],
   "inherited": false,
   "order": 3443,
-  "views": "18"
+  "views": "21"
  },
  {
   "id": 3444,
@@ -47001,7 +47001,7 @@
   ],
   "inherited": false,
   "order": 3444,
-  "views": "19"
+  "views": "24"
  },
  {
   "id": 3445,
@@ -47019,6 +47019,28 @@
   ],
   "inherited": false,
   "order": 3445,
-  "views": "18"
+  "views": "23"
+ },
+ {
+  "id": 3447,
+  "url": "https://t.me/reyad_elganna/3447",
+  "date": "2026-11-25",
+  "type": "video",
+  "category": "الاقتصاد الإسلامي",
+  "series": "محاضرات في الاقتصاد الإسلامي",
+  "sub": null,
+  "ep": null,
+  "title": "للمتابعة المستمرة عبر صفحة نبض الاقتصاد الإسلامي عبر فيسبوك",
+  "topics": [
+   "قناة رياض الجنة",
+   "تليجرام",
+   "والموقع"
+  ],
+  "tags": [
+   "#s3"
+  ],
+  "inherited": false,
+  "order": 3447,
+  "views": "26"
  }
 ]
