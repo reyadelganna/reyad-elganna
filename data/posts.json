@@ -70946,7 +70946,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "121",
+  "views": "122",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -70960,7 +70960,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "82",
+  "views": "85",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -70979,7 +70979,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "106",
+  "views": "109",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -70999,7 +70999,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "89",
+  "views": "93",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -71013,7 +71013,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "87",
+  "views": "91",
   "reply_to": 3432,
   "forwarded_from": ""
  },
@@ -71033,7 +71033,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "64",
+  "views": "68",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -71055,7 +71055,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "14",
+  "views": "16",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -71077,7 +71077,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "15",
+  "views": "16",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -71099,7 +71099,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "16",
+  "views": "17",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -71121,7 +71121,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "20",
+  "views": "21",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -71165,7 +71165,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "14",
+  "views": "16",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -71187,7 +71187,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "17",
+  "views": "19",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -71209,7 +71209,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "22",
+  "views": "25",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -71231,7 +71231,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "25",
+  "views": "28",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -71253,7 +71253,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "25",
+  "views": "28",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -71276,7 +71276,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "26",
+  "views": "29",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -71301,7 +71301,27 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "47",
+  "views": "53",
+  "reply_to": null,
+  "forwarded_from": ""
+ },
+ {
+  "id": 3448,
+  "url": "https://t.me/reyad_elganna/3448",
+  "date": "2026-11-26T06:50:38+00:00",
+  "text": "نشرة أخبار الاقتصاد الإسلامي حول العالم ليوم الخميس ٢٦ نوفمبر ٢٠٢٦",
+  "links": [],
+  "docs": [
+   {
+    "title": "VID-20261126-WA0014.mp4",
+    "extra": "5.7 MB",
+    "audio": false
+   }
+  ],
+  "voice": 0,
+  "photos": [],
+  "videos": 0,
+  "views": "7",
   "reply_to": null,
   "forwarded_from": ""
  }

@@ -46805,7 +46805,7 @@
   "tags": [],
   "inherited": false,
   "order": 3430,
-  "views": "82"
+  "views": "85"
  },
  {
   "id": 3432,
@@ -46821,7 +46821,7 @@
   "tags": [],
   "inherited": false,
   "order": 3432,
-  "views": "89"
+  "views": "93"
  },
  {
   "id": 3435,
@@ -46837,7 +46837,7 @@
   "tags": [],
   "inherited": false,
   "order": 3435,
-  "views": "64"
+  "views": "68"
  },
  {
   "id": 3436,
@@ -46857,7 +46857,7 @@
   ],
   "inherited": false,
   "order": 3436,
-  "views": "14"
+  "views": "16"
  },
  {
   "id": 3437,
@@ -46875,7 +46875,7 @@
   ],
   "inherited": false,
   "order": 3437,
-  "views": "15"
+  "views": "16"
  },
  {
   "id": 3438,
@@ -46893,7 +46893,7 @@
   ],
   "inherited": false,
   "order": 3438,
-  "views": "16"
+  "views": "17"
  },
  {
   "id": 3439,
@@ -46911,7 +46911,7 @@
   ],
   "inherited": false,
   "order": 3439,
-  "views": "20"
+  "views": "21"
  },
  {
   "id": 3440,
@@ -46947,7 +46947,7 @@
   ],
   "inherited": false,
   "order": 3441,
-  "views": "14"
+  "views": "16"
  },
  {
   "id": 3442,
@@ -46965,7 +46965,7 @@
   ],
   "inherited": false,
   "order": 3442,
-  "views": "17"
+  "views": "19"
  },
  {
   "id": 3443,
@@ -46983,7 +46983,7 @@
   ],
   "inherited": false,
   "order": 3443,
-  "views": "22"
+  "views": "25"
  },
  {
   "id": 3444,
@@ -47001,7 +47001,7 @@
   ],
   "inherited": false,
   "order": 3444,
-  "views": "25"
+  "views": "28"
  },
  {
   "id": 3445,
@@ -47019,7 +47019,7 @@
   ],
   "inherited": false,
   "order": 3445,
-  "views": "25"
+  "views": "28"
  },
  {
   "id": 3447,
@@ -47041,6 +47041,22 @@
   ],
   "inherited": false,
   "order": 3447,
-  "views": "47"
+  "views": "53"
+ },
+ {
+  "id": 3448,
+  "url": "https://t.me/reyad_elganna/3448",
+  "date": "2026-11-26",
+  "type": "video",
+  "category": "الاقتصاد الإسلامي",
+  "series": "محاضرات في الاقتصاد الإسلامي",
+  "sub": null,
+  "ep": 2026,
+  "title": "نشرة أخبار الاقتصاد الإسلامي حول العالم ليوم الخميس 26 نوفمبر 2026",
+  "topics": [],
+  "tags": [],
+  "inherited": false,
+  "order": 3448,
+  "views": "7"
  }
 ]
