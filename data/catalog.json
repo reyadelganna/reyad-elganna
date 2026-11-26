@@ -46805,7 +46805,7 @@
   "tags": [],
   "inherited": false,
   "order": 3430,
-  "views": "85"
+  "views": "89"
  },
  {
   "id": 3432,
@@ -46821,7 +46821,7 @@
   "tags": [],
   "inherited": false,
   "order": 3432,
-  "views": "93"
+  "views": "97"
  },
  {
   "id": 3435,
@@ -46837,7 +46837,7 @@
   "tags": [],
   "inherited": false,
   "order": 3435,
-  "views": "68"
+  "views": "77"
  },
  {
   "id": 3436,
@@ -46857,7 +46857,7 @@
   ],
   "inherited": false,
   "order": 3436,
-  "views": "16"
+  "views": "19"
  },
  {
   "id": 3437,
@@ -46911,7 +46911,7 @@
   ],
   "inherited": false,
   "order": 3439,
-  "views": "21"
+  "views": "22"
  },
  {
   "id": 3440,
@@ -46929,7 +46929,7 @@
   ],
   "inherited": false,
   "order": 3440,
-  "views": "16"
+  "views": "18"
  },
  {
   "id": 3441,
@@ -46947,7 +46947,7 @@
   ],
   "inherited": false,
   "order": 3441,
-  "views": "16"
+  "views": "18"
  },
  {
   "id": 3442,
@@ -46965,7 +46965,7 @@
   ],
   "inherited": false,
   "order": 3442,
-  "views": "19"
+  "views": "24"
  },
  {
   "id": 3443,
@@ -46983,7 +46983,7 @@
   ],
   "inherited": false,
   "order": 3443,
-  "views": "25"
+  "views": "29"
  },
  {
   "id": 3444,
@@ -47001,7 +47001,7 @@
   ],
   "inherited": false,
   "order": 3444,
-  "views": "28"
+  "views": "33"
  },
  {
   "id": 3445,
@@ -47019,7 +47019,7 @@
   ],
   "inherited": false,
   "order": 3445,
-  "views": "28"
+  "views": "33"
  },
  {
   "id": 3447,
@@ -47041,7 +47041,7 @@
   ],
   "inherited": false,
   "order": 3447,
-  "views": "53"
+  "views": "67"
  },
  {
   "id": 3448,
@@ -47057,6 +47057,26 @@
   "tags": [],
   "inherited": false,
   "order": 3448,
-  "views": "7"
+  "views": "18"
+ },
+ {
+  "id": 3449,
+  "url": "https://t.me/reyad_elganna/3449",
+  "date": "2026-11-26",
+  "type": "audio",
+  "category": "قصص الأنبياء",
+  "series": "سلسلة تأملات إيمانية في قصص الأنبياء",
+  "sub": "موسى",
+  "ep": 2,
+  "title": "الموسوية",
+  "topics": [
+   "تأملات إيمانية في سيرة نبي الله موسى عليه السلام - 2"
+  ],
+  "tags": [
+   "#السيرة"
+  ],
+  "inherited": false,
+  "order": 3449,
+  "views": "5"
  }
 ]
