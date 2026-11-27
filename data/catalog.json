@@ -46821,7 +46821,7 @@
   "tags": [],
   "inherited": false,
   "order": 3432,
-  "views": "97"
+  "views": "104"
  },
  {
   "id": 3435,
@@ -46837,7 +46837,7 @@
   "tags": [],
   "inherited": false,
   "order": 3435,
-  "views": "77"
+  "views": "84"
  },
  {
   "id": 3436,
@@ -46857,7 +46857,7 @@
   ],
   "inherited": false,
   "order": 3436,
-  "views": "19"
+  "views": "22"
  },
  {
   "id": 3437,
@@ -46875,7 +46875,7 @@
   ],
   "inherited": false,
   "order": 3437,
-  "views": "16"
+  "views": "18"
  },
  {
   "id": 3438,
@@ -46893,7 +46893,7 @@
   ],
   "inherited": false,
   "order": 3438,
-  "views": "17"
+  "views": "19"
  },
  {
   "id": 3439,
@@ -46911,7 +46911,7 @@
   ],
   "inherited": false,
   "order": 3439,
-  "views": "22"
+  "views": "24"
  },
  {
   "id": 3440,
@@ -46929,7 +46929,7 @@
   ],
   "inherited": false,
   "order": 3440,
-  "views": "18"
+  "views": "20"
  },
  {
   "id": 3441,
@@ -46947,7 +46947,7 @@
   ],
   "inherited": false,
   "order": 3441,
-  "views": "18"
+  "views": "21"
  },
  {
   "id": 3442,
@@ -46965,7 +46965,7 @@
   ],
   "inherited": false,
   "order": 3442,
-  "views": "24"
+  "views": "26"
  },
  {
   "id": 3443,
@@ -46983,7 +46983,7 @@
   ],
   "inherited": false,
   "order": 3443,
-  "views": "29"
+  "views": "31"
  },
  {
   "id": 3444,
@@ -47001,7 +47001,7 @@
   ],
   "inherited": false,
   "order": 3444,
-  "views": "33"
+  "views": "35"
  },
  {
   "id": 3445,
@@ -47019,7 +47019,7 @@
   ],
   "inherited": false,
   "order": 3445,
-  "views": "33"
+  "views": "36"
  },
  {
   "id": 3447,
@@ -47041,7 +47041,7 @@
   ],
   "inherited": false,
   "order": 3447,
-  "views": "67"
+  "views": "75"
  },
  {
   "id": 3448,
@@ -47057,7 +47057,7 @@
   "tags": [],
   "inherited": false,
   "order": 3448,
-  "views": "18"
+  "views": "24"
  },
  {
   "id": 3449,
@@ -47077,6 +47077,42 @@
   ],
   "inherited": false,
   "order": 3449,
-  "views": "5"
+  "views": "13"
+ },
+ {
+  "id": 3450,
+  "url": "https://t.me/reyad_elganna/3450",
+  "date": "2026-11-26",
+  "type": "audio",
+  "category": "شروح السنة",
+  "series": "شرح صحيح الإمام مسلم (متجدد)",
+  "sub": "البيوع",
+  "ep": 11,
+  "title": "باب ثبوت خيار المجلس للمتبايعين",
+  "topics": [],
+  "tags": [
+   "#شرح"
+  ],
+  "inherited": false,
+  "order": 3450,
+  "views": "7"
+ },
+ {
+  "id": 3451,
+  "url": "https://t.me/reyad_elganna/3451",
+  "date": "2026-11-26",
+  "type": "audio",
+  "category": "شروح السنة",
+  "series": "شرح صحيح الإمام مسلم (متجدد)",
+  "sub": "البيوع",
+  "ep": 12,
+  "title": "باب الصدق في البيع والبيان",
+  "topics": [],
+  "tags": [
+   "#شرح"
+  ],
+  "inherited": false,
+  "order": 3451,
+  "views": "7"
  }
 ]

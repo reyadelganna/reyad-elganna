@@ -70979,7 +70979,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "113",
+  "views": "118",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -70999,7 +70999,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "97",
+  "views": "104",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -71013,7 +71013,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "98",
+  "views": "104",
   "reply_to": 3432,
   "forwarded_from": ""
  },
@@ -71033,7 +71033,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "77",
+  "views": "84",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -71055,7 +71055,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "19",
+  "views": "22",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -71077,7 +71077,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "16",
+  "views": "18",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -71099,7 +71099,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "17",
+  "views": "19",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -71121,7 +71121,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "22",
+  "views": "24",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -71143,7 +71143,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "18",
+  "views": "20",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -71165,7 +71165,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "18",
+  "views": "21",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -71187,7 +71187,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "24",
+  "views": "26",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -71209,7 +71209,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "29",
+  "views": "31",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -71231,7 +71231,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "33",
+  "views": "35",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -71253,7 +71253,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "33",
+  "views": "36",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -71276,7 +71276,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "36",
+  "views": "39",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -71301,7 +71301,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "67",
+  "views": "75",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -71321,7 +71321,7 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "18",
+  "views": "24",
   "reply_to": null,
   "forwarded_from": ""
  },
@@ -71343,7 +71343,51 @@
   "voice": 0,
   "photos": [],
   "videos": 0,
-  "views": "5",
+  "views": "13",
+  "reply_to": null,
+  "forwarded_from": ""
+ },
+ {
+  "id": 3450,
+  "url": "https://t.me/reyad_elganna/3450",
+  "date": "2026-11-26T19:34:40+00:00",
+  "text": "#شرح\n صحيح الإمام مسلم\nكتاب البيوع - ١١\n⛔️\n باب ثبوت خيار المجلس للمتبايعين",
+  "links": [
+   "?q=%23%D8%B4%D8%B1%D8%AD"
+  ],
+  "docs": [
+   {
+    "title": "Audio",
+    "extra": "",
+    "audio": false
+   }
+  ],
+  "voice": 0,
+  "photos": [],
+  "videos": 0,
+  "views": "7",
+  "reply_to": null,
+  "forwarded_from": ""
+ },
+ {
+  "id": 3451,
+  "url": "https://t.me/reyad_elganna/3451",
+  "date": "2026-11-26T19:36:25+00:00",
+  "text": "‏\n#شرح\n صحيح الإمام مسلم\nكتاب البيوع - ١٢\n⛔️\n باب الصدق في البيع والبيان.",
+  "links": [
+   "?q=%23%D8%B4%D8%B1%D8%AD"
+  ],
+  "docs": [
+   {
+    "title": "Audio",
+    "extra": "",
+    "audio": false
+   }
+  ],
+  "voice": 0,
+  "photos": [],
+  "videos": 0,
+  "views": "7",
   "reply_to": null,
   "forwarded_from": ""
  }
